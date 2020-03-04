@@ -166,7 +166,7 @@ const gameIds = [
         id: 'DDu1Smaj8x'
     },
     {
-        game: 'Legendary Encounters: Aliens',
+        game: 'Legendary Encounters: Alien',
         id: '40Qb0frFQo'
     },
     {
@@ -382,81 +382,106 @@ const gameIds = [
 const expansions = [
     {
         base: 'Arkham Horror: The Card Game',
-        exp: 'Arkham Horror: The Forgotten Age'
+        exp: 'Arkham Horror: The Forgotten Age',
+        id: 'OPetl2kfVG'
     },
     {
         base: 'AvP: The Hunt Begins',
-        exp: 'AvP: Hot Landing Zone'
+        exp: 'AvP: Hot Landing Zone',
+        id: 'wXytIuCvjy'
     },
     {
         base: 'Boss Monster',
-        exp: 'Boss Monster: Next Level'
+        exp: 'Boss Monster 2: The Next Level',
+        id: 'iLClIEykRr'
     },
     {
         base: 'Boss Monster',
-        exp: 'Boss Monster: Crash Landing'
+        exp: 'Boss Monster: Crash Landing',
+        id: 'Grj9ItghtR'
     },
     {
         base: 'Boss Monster',
-        exp: 'Boss Monster: Implements of Destruction'
+        exp: 'Boss Monster: Implements of Destruction',
+        id: 'MHkPqS3iaz'
     },
     {
         base: 'Boss Monster',
-        exp: 'Rise of the Mini-Boss'
+        exp: 'Rise of the Minibosses',
+        id: 'UX7TrkiPI8'
     },
     {
         base: 'Boss Monster',
-        exp: 'Boss Monster: Tools of Hero-Kind'
+        exp: 'Boss Monster: Tools of Hero-Kind',
+        id: 'aSiCTudo4j'
     },
     {
         base: 'Carcassonne',
-        exp: 'Carcassonne: Bridges, Castles & Bazaaars'
+        exp: 'Carcassonne: Bridges, Castles & Bazaaars',
+        id: 'cxbewrSZzV'
     },
     {
         base: 'Carcassonne',
-        exp: 'Carcassonne: The Princess and the Dragon'
+        exp: 'Carcassonne: The Princess and the Dragon',
+        id: 'cyt7Cv1k83'
     },
     {
         base: 'Evolution',
-        exp: 'Evolution: Climate Change'
+        exp: 'Evolution: Climate',
+        id: '8xkkOT11DT'
     },
     {
         base: 'Evolution',
-        exp: 'Evolution: Flight'
+        exp: 'Evolution: Flight',
+        id: 'LTn4zrrUPd'
     },
     {
-        base: 'Legendary: Alien',
-        exp: 'Legendary: Alien Deck Building Expansion'
+        base: 'Legendary Encounters: Alien',
+        exp: 'Legendary Encounters: Alien Deck Building Expansion',
+        id: 'xEGxRKUT6n'
+    },
+    {
+        base: 'Legendary Encounters: Alien',
+        exp: 'Legendary Encounters: Alien Covenant',
+        id: 'TW8GqSyWD9'
     },
     {
         base: 'Orleans',
-        exp: 'Orleans: Invasion'
+        exp: 'Orleans: Invasion',
+        id: 'WJMq3cM0K3'
     },
     {
         base: 'Ticket to Ride',
-        exp: 'Ticket to Ride: USA 1910'
+        exp: 'Ticket to Ride: USA 1910',
+        id: 'XZ9BeWAgCu'
     },
     {
         base: 'Zombicide: Black Plague',
-        exp: 'Zombicide: No Rest for the Wicked'
+        exp: 'Zombicide: No Rest for the Wicked',
+        id: 'u8eCOdgduc'
     },
     {
         base: 'Zombicide: Green Horde',
-        exp: 'Zombicide: No Rest for the Wicked'
+        exp: 'Zombicide: No Rest for the Wicked',
+        id: 'u8eCOdgduc'
     },
     {
         base: 'Zombicide: Invader',
-        exp: 'Zombicide: Black Ops'
+        exp: 'Zombicide: Black Ops',
+        id: 'YhPzHihmlf'
     },
     {
         base: 'Zombicide: Dark Side',
-        exp: 'Zombicide: Black Ops'
+        exp: 'Zombicide: Black Ops',
+        id: 'YhPzHihmlf'
     }
 ];
 
 const clientId = '6M6K1PSC4C';
 const searchURL = 'https://www.boardgameatlas.com/api/search';
 let selectedGame = 'none';
+let selectedExp = 'none';
+let expCount = 0;
 
 // generate clean url for fetch request
 function formatQueryParams(params) {
@@ -491,13 +516,13 @@ function getGames(gameQuery, gameName) {
       });
 }
 
+// display details for selected game
 function displayResults(results) {
     console.log(results);
     $('.games').hide();
     $('.game-overview').empty();
     $('.game-overview').show();
 
-    let gameName = results.games.map(nameVal => nameVal.name);
     let getImage = results.games.map(imageVal => imageVal.image_url);
     let urlLink = results.games.map(gameUrl => gameUrl.url);
 
@@ -506,6 +531,74 @@ function displayResults(results) {
         <h2>${selectedGame}</h2>
         <img src='${getImage[0]}'>
         <p><a href='${urlLink[0]}' class='link' target='_blank'>Link</a></p>
+        <section class='expansions'>
+        <button class='exp-link' onclick='findExpansions("${selectedGame}")'>Expansions</button>
+        </section>
+        </div>`
+    );
+}
+
+// look for and display any expansions associated with base game
+function findExpansions(baseGame) {
+    const expArray = expansions;
+    expCount = 0;
+
+    for (let i = 0; i < expArray.length; i++) {
+        if (expArray[i].base === baseGame) {
+            expCount++;
+
+            $('.expansions').append(
+                `<div id='${expArray[i].id}'>
+                <button class='exp-link' onclick='fetchExp("${expArray[i].id}")'>${expArray[i].exp}</button>
+                </div>`
+            );
+            
+        }
+    }
+
+    if (expCount === 0) {
+        $('.expansions').append(
+            `<p>None</p>`
+        );
+    }
+}
+
+// fetch details for expansion
+function fetchExp(expId) {
+    selectedExp = expId;
+
+    const params = {
+        ids: expId,
+        client_id: clientId
+    };
+
+    const queryString = formatQueryParams(params);
+    const url = searchURL + '?' + queryString;
+    console.log(url);
+
+    fetch(url) 
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error(response.statusText);
+      })
+      .then(responseJson => loadExp(responseJson))
+      .catch(err => {
+        $('#js-error-message').text(`Something went wrong: ${err.message}`);
+      });
+}
+
+function loadExp(expObj) {
+    console.log(expObj);
+
+    let targetExp = document.getElementById(selectedExp);
+    let expImage = expObj.games.map(imageVal => imageVal.image_url);
+    let expURL = expObj.games.map(urlVal => urlVal.url);
+    
+    $(targetExp).append(
+        `<div><img src='${expImage[0]}' />
+        <p><a class='link' href='${expURL[0]}' target='_blank'>Link</a></p>
         </div>`
     );
 }

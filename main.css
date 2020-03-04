@@ -81,8 +81,15 @@ nav {
     margin: 10px auto 10px auto;
 }
 
-.game-link:hover {
+.game-link:hover,
+.exp-link {
     cursor: pointer;
+}
+
+.exp-link {
+    display: inline-block;
+    border: none;
+    background-color: inherit;
 }
 
 .movies,
