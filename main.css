@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: gray;
+    width: 100%;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.navigation {
+    list-style-type: none;
+}
+
+.navlink {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.nl1::after {
+    content: '  |  ';
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.buttonnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+    border-color: grey;
+    box-shadow: black;
+    border-radius: 4px;
+    text-align: center;
+    padding: 30px 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-block,
+.game-feature {
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+}
+
+.game-link:hover {
+    cursor: pointer;
+}
+
+.movies,
+.games {
+    display: none;
+}

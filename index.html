@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entertainment Hub</title>
+    <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+    <header role="header">
+        <h1 class="logo">Decisive Entertainment</h1>
+        <nav role="navigation">
+            <ul class="menu">
+                <li class="navlink nl1">Movies</li>
+                <li class="navlink"><a onclick="backNav()" class="link">Board Games</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="buttonnav" role="container">
+            <button class="button movie-button">Movies</button>
+            <button class="button games-button">Board Games</button>
+        </section>
+        <section class="movies block"></section>
+        <section class="games block"></section>
+        <section class="game-overview block"></section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="jindex.js"></script>
+</body>
+</html>
