@@ -391,6 +391,16 @@ const expansions = [
         id: 'wXytIuCvjy'
     },
     {
+        base: 'Blood Rage',
+        exp: 'Gods of Asgard',
+        id: 'dsEay3QGls'
+    },
+    {
+        base: 'Blood Rage',
+        exp: 'Mystics of Midgard',
+        id: 'KrOSnDs7qp'
+    },
+    {
         base: 'Boss Monster',
         exp: 'Boss Monster 2: The Next Level',
         id: 'iLClIEykRr'
@@ -436,6 +446,86 @@ const expansions = [
         id: 'LTn4zrrUPd'
     },
     {
+        base: 'King of Tokyo',
+        exp: 'King of Tokyo: Halloween',
+        id: 'IjMcGwdT95'
+    },
+    {
+        base: 'King of Tokyo',
+        exp: 'King of Tokyo: Power Up',
+        id: 'El8zJPnpYZ'
+    },
+    {
+        base: 'King of Tokyo',
+        exp: 'Anubis Monster Pack',
+        id: 'bN2dvaRMN5'
+    },
+    {
+        base: 'King of Tokyo',
+        exp: 'Cthulhu Monster Pack',
+        id: '8Uv1EzPao6'
+    },
+    {
+        base: 'King of Tokyo',
+        exp: 'Cybertooth Monster Pack',
+        id: 'o0MHmngkoL'
+    },
+    {
+        base: 'King of Tokyo',
+        exp: 'King Kong Monster Pack',
+        id: 'dOLEboniiK'
+    },
+    {
+        base: 'King of New York',
+        exp: 'King of New York: Power Up',
+        id: 'JTTiuA257x'
+    },
+    {
+        base: 'King of New York',
+        exp: 'Anubis Monster Pack',
+        id: 'bN2dvaRMN5'
+    },
+    {
+        base: 'King of New York',
+        exp: 'Cthulhu Monster Pack',
+        id: '8Uv1EzPao6'
+    },
+    {
+        base: 'King of New York',
+        exp: 'Cybertooth Monster Pack',
+        id: 'o0MHmngkoL'
+    },
+    {
+        base: 'King of New York',
+        exp: 'King Kong Monster Pack',
+        id: 'dOLEboniiK'
+    },
+    {
+        base: 'Legendary',
+        exp: 'Legendary: Ant-Man',
+        id: 'QAD4FAeAB2'
+    },
+    {
+        base: 'Legendary',
+        exp: 'Legendary: Deadpool',
+        id: 'EEOTOd8RJ5'
+    },
+    {
+        base: 'Legendary',
+        exp: 'Legendary: Fantastic Four',
+        id: 'z7Hu0AyCn3'
+    },
+    {
+        base: 'Legendary',
+        exp: 'Legendary: Guardians of the Galaxy',
+        id: 'b0gLLEEmiq'
+    },
+    {
+        base: 'Legendary',
+        exp: 'Legendary: Venom',
+        id: 'xWWfKgFiVs'
+    },
+    {
         base: 'Legendary Encounters: Alien',
         exp: 'Legendary Encounters: Alien Deck Building Expansion',
         id: 'xEGxRKUT6n'
@@ -451,6 +541,71 @@ const expansions = [
         id: 'WJMq3cM0K3'
     },
     {
+        base: 'Smash Up',
+        exp: 'Awesome Level 9000',
+        id: 'E2BDGzVGho'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'Big in Japan',
+        id: 'BvtUtob0RQ'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'Cease and Desist',
+        id: 'sEFt5GErUm'
+    },
+    {
+        base: 'Smash Up',
+        exp: `It's Your Fault`,
+        id: 'nN1GVWyE4U'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'Monster Smash',
+        id: 'geDNXnjR0T'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'Oops, You Did It Again',
+        id: '3r6yaoZYv5'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'Pretty Pretty Smash Up',
+        id: 'eewJGDEpm4'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'Science Fiction Double Feature',
+        id: 'kKOxQBOpW0'
+    },
+    {
+        base: 'Smash Up',
+        exp: `That 70's Expansion`,
+        id: 'H9RC6KaBjT'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'The Obligatory Cthulhu Expansion',
+        id: '4Ci60WoqUv'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'What Were We Thinking',
+        id: 'cvzbE312G2'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'World Tour: Culture Shock',
+        id: 'u3R8IY75ZS'
+    },
+    {
+        base: 'Smash Up',
+        exp: 'World Tour: International Incident',
+        id: 'YXBLRQj65s'
+    },
+    {
         base: 'Ticket to Ride',
         exp: 'Ticket to Ride: USA 1910',
         id: 'XZ9BeWAgCu'
@@ -459,6 +614,16 @@ const expansions = [
         base: 'Zombicide: Black Plague',
         exp: 'Zombicide: No Rest for the Wicked',
         id: 'u8eCOdgduc'
+    },
+    {
+        base: 'Zombicide: Black Plague',
+        exp: 'Zombicide: Wulfsburg',
+        id: 'HlhAEKqlQi'
+    },
+    {
+        base: 'Zombicide: Green Horde',
+        exp: 'Zombicide: Friends and Foes',
+        id: 'yoZEHZfcD3'
     },
     {
         base: 'Zombicide: Green Horde',
@@ -530,10 +695,9 @@ function displayResults(results) {
         `<div class='game-feature block'>
         <h2>${selectedGame}</h2>
         <img src='${getImage[0]}'>
-        <p><a href='${urlLink[0]}' class='link' target='_blank'>Link</a></p>
-        <section class='expansions'>
+        <p><a href='${urlLink[0]}' class='link' target='_blank'>View details</a></p>
         <button class='exp-link' onclick='findExpansions("${selectedGame}")'>Expansions</button>
-        </section>
+        <section class='expansions block'></section>
         </div>`
     );
 }
@@ -548,8 +712,8 @@ function findExpansions(baseGame) {
             expCount++;
 
             $('.expansions').append(
-                `<div id='${expArray[i].id}'>
-                <button class='exp-link' onclick='fetchExp("${expArray[i].id}")'>${expArray[i].exp}</button>
+                `<div id='${expArray[i].id}' class='exp-details block'>
+                <button class='exp-button' onclick='fetchExp("${expArray[i].id}")'>${expArray[i].exp}</button>
                 </div>`
             );
             
@@ -589,6 +753,7 @@ function fetchExp(expId) {
       });
 }
 
+// load expansion details
 function loadExp(expObj) {
     console.log(expObj);
 
@@ -597,9 +762,10 @@ function loadExp(expObj) {
     let expURL = expObj.games.map(urlVal => urlVal.url);
     
     $(targetExp).append(
-        `<div><img src='${expImage[0]}' />
-        <p><a class='link' href='${expURL[0]}' target='_blank'>Link</a></p>
-        </div>`
+        `<section class='expansion block'>
+        <img src='${expImage[0]}' />
+        <p><a class='link' href='${expURL[0]}' target='_blank'>View details</a></p>
+        </section>`
     );
 }
 
