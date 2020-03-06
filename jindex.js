@@ -784,6 +784,10 @@ function showGames() {
         $('.games').empty();
         $('.games').show();
 
+        $('.games').append(
+            `<div class="game-block random"><a class="game-link random" onclick='randomGame()'>Generate Random</a></div>`
+        );
+
         let gameList = gameIds.map(name => name.game);
         let idList = gameIds.map(gameid => gameid.id);
 
@@ -795,11 +799,31 @@ function showGames() {
     })
 }
 
+// generate random board game recommendation
+function randomGame() {
+    $('.game-block').hide();
+    $('.games').empty();
+
+    const randomArr = gameIds.map(randName => randName.game);
+    const randomGen = randomArr[Math.floor(Math.random() * randomArr.length)];
+
+    for (let i = 0; i < gameIds.length; i++) {
+        if (gameIds[i].game === randomGen) {
+            getGames(gameIds[i].id, gameIds[i].game);
+        }
+    }
+
+}
+
 function backNav() {
     $('.buttonnav').hide();
     $('.game-overview').hide();
     $('.games').empty();
     $('.games').show();
+
+    $('.games').append(
+        `<div class="game-block random"><a class="game-link random" onclick='randomGame()'>Generate Random</a></div>`
+    );
 
     let gameList = gameIds.map(name => name.game);
     let idList = gameIds.map(gameid => gameid.id);

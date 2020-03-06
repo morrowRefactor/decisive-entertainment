@@ -122,7 +122,11 @@ h2, h3 {
     text-align: center;
 }
 
-.movies,
-.games {
+.random {
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+.hidden {
     display: none;
 }
