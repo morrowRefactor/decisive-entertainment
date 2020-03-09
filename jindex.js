@@ -294,6 +294,10 @@ const gameIds = [
         id: 'gpWODy5pt6'
     },
     {
+        game: 'Small World',
+        id: '8UmzC1ZGGE'
+    },
+    {
         game: 'Smash Up',
         id: 'Q3EWjC8Dm7'
     },
@@ -536,6 +540,16 @@ const expansions = [
         id: 'TW8GqSyWD9'
     },
     {
+        base: 'Mysterium',
+        exp: 'Mysterium: Hidden Signs',
+        id: 'Q8FmKGF8U8'
+    },
+    {
+        base: 'Mysterium',
+        exp: 'Mysterium: Secrets and Lies',
+        id: 'x9WLvqVc6H'
+    },
+    {
         base: 'Orleans',
         exp: 'Orleans: Invasion',
         id: 'WJMq3cM0K3'
@@ -604,6 +618,11 @@ const expansions = [
         base: 'Smash Up',
         exp: 'World Tour: International Incident',
         id: 'YXBLRQj65s'
+    },
+    {
+        base: 'Spirit Island',
+        exp: 'Branch and Claw',
+        id: 'otIQ3ZB83G'
     },
     {
         base: 'Ticket to Ride',
