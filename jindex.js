@@ -15,7 +15,8 @@ const gameIds = [
     },
     {
         game: 'Arkham Horror: The Card Game',
-        id: '4G32qGJZWs'
+        id: '4G32qGJZWs',
+        tracker: 'yes'
     },
     {
         game: 'Atlantis Rising',
@@ -207,7 +208,8 @@ const gameIds = [
     },
     {
         game: 'Myth',
-        id: '5CUDNVboxX'
+        id: '5CUDNVboxX',
+        tracker: 'yes'
     },
     {
         game: `Odin's Ravens`,
@@ -663,6 +665,7 @@ const expansions = [
 
 const clientId = '6M6K1PSC4C';
 const searchURL = 'https://www.boardgameatlas.com/api/search';
+const trackerURL = 'https://docs.google.com/spreadsheets/d/10bqq3FyHzjih2ou_9BnSm1ke16qN-qKn4oegymVOhGc/';
 let selectedGame = 'none';
 let selectedExp = 'none';
 let expCount = 0;
@@ -714,11 +717,23 @@ function displayResults(results) {
         `<div class='game-feature block'>
         <h2>${selectedGame}</h2>
         <img src='${getImage[0]}'>
-        <p><a href='${urlLink[0]}' class='link' target='_blank'>View details</a></p>
-        <button class='exp-link' onclick='findExpansions("${selectedGame}")'>Expansions</button>
-        <section class='expansions block'></section>
+        <p class='tracker-append'><a href='${urlLink[0]}' class='link' target='_blank'>View details</a></p>
         </div>`
     );
+
+    for (let i = 0; i < gameIds.length; i++) {
+        if(gameIds[i].game === selectedGame && gameIds[i].tracker === 'yes') {
+            console.log('good');
+            $('.tracker-append').append(
+                `<span><br /><a class='link' href='${trackerURL}' target='_blank'>View game tracker</a></span>`
+            );
+        }
+    }
+
+    $('.game-feature').append(
+        `<button class='exp-link' onclick='findExpansions("${selectedGame}")'>Expansions</button>
+        <section class='expansions block'></section>`
+    )
 }
 
 // look for and display any expansions associated with base game
