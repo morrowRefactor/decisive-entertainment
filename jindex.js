@@ -663,6 +663,485 @@ const expansions = [
     }
 ];
 
+const videoGames = [
+    {
+        game: '1080 Snowboarding',
+        console: 'N64'
+    },
+    {
+        game: 'Alien: Isolation',
+        console: 'PS3'
+    },
+    {
+        game: 'Aliens: Colonial Marines',
+        console: 'PS3'
+    },
+    {
+        game: 'Aliens vs Predator',
+        console: 'PS3'
+    },
+    {
+        game: 'Alien3',
+        console: 'NES'
+    },
+    {
+        game: 'Ark Park',
+        console: 'PS4'
+    },
+    {
+        game: 'Banjo-Kazooie',
+        console: 'N64'
+    },
+    {
+        game: 'Bushido Blade 2',
+        console: 'PS1'
+    },
+    {
+        game: 'Batman: Arkham Asylum',
+        console: 'PS3'
+    },
+    {
+        game: 'Batman: Arkham City',
+        console: 'PS3'
+    },
+    {
+        game: 'Batman: Arkham Origins',
+        console: 'PS3'
+    },
+    {
+        game: 'BattleToads',
+        console: 'GB'
+    },
+    {
+        game: 'Black',
+        console: 'PS2'
+    },
+    {
+        game: 'Call of Cthulhu',
+        console: 'PS4'
+    },
+    {
+        game: 'Call of Duty 3',
+        console: 'PS2'
+    },
+    {
+        game: 'Call of Duty: Black Ops',
+        console: 'PS3'
+    },
+    {
+        game: 'Call of Duty: Black Ops II',
+        console: 'PS3'
+    },
+    {
+        game: 'Call of Duty: Black Ops III',
+        console: 'PS3'
+    },
+    {
+        game: 'Call of Duty: Modern Warfare 2',
+        console: 'PS3'
+    },
+    {
+        game: 'ClayFighter 63 1/3',
+        console: 'N64'
+    },
+    {
+        game: `Cruis'n USA`,
+        console: 'N64'
+    },
+    {
+        game: 'Dead Island',
+        console: 'PS3'
+    },
+    {
+        game: 'Diddy Kong Racing',
+        console: 'N64'
+    },
+    {
+        game: 'Doom 3: BFD Edition',
+        console: 'PS3'
+    },
+    {
+        game: 'Doom 64',
+        console: 'N64'
+    },
+    {
+        game: 'F-Zero X',
+        console: 'N64'
+    },
+    {
+        game: 'Ghostbusters',
+        console: 'PS3'
+    },
+    {
+        game: 'God of War',
+        console: 'PS4'
+    },
+    {
+        game: 'GoldenEye 007',
+        console: 'N64'
+    },
+    {
+        game: 'GoldenEye 007 Reloaded',
+        console: 'PS3'
+    },
+    {
+        game: 'Gran Turismo',
+        console: 'PS1'
+    },
+    {
+        game: 'Gran Turismo 2',
+        console: 'PS1'
+    },
+    {
+        game: 'Gran Turismo 3 A-Spec',
+        console: 'PS2'
+    },
+    {
+        game: 'Gran Turismo 5',
+        console: 'PS3'
+    },
+    {
+        game: 'Grand Theft Auto',
+        console: 'PS1'
+    },
+    {
+        game: 'Grand Theft Auto III',
+        console: 'PS2'
+    },
+    {
+        game: 'Grand Theft Auto: San Andreas',
+        console: 'PS2'
+    },
+    {
+        game: 'Grand Theft Auto: Vice City',
+        console: 'PS2'
+    },
+    {
+        game: 'Guitar Hero',
+        console: 'PS2'
+    },
+    {
+        game: 'Guitar Hero 2',
+        console: 'PS2'
+    },
+    {
+        game: 'Guitar Hero III: Legends of Rock',
+        console: 'PS2'
+    },
+    {
+        game: 'Guitar Hero: World Tour',
+        console: 'PS2'
+    },
+    {
+        game: 'Guitar Hero 5',
+        console: 'PS2'
+    },
+    {
+        game: `Guitar Hero Encore Rocks the 80's`,
+        console: 'PS2'
+    },
+    {
+        game: 'Gyruss',
+        console: 'NES'
+    },
+    {
+        game: 'High Heat Major League Baseball 2003',
+        console: 'PS2'
+    },
+    {
+        game: 'Horizon: Zero Dawn',
+        console: 'PS4'
+    },
+    {
+        game: 'Jurassic Park',
+        console: 'NES'
+    },
+    {
+        game: 'Jurassic Park: Operation Genesis',
+        console: 'PS2'
+    },
+    {
+        game: 'Jurassic World: Evolution',
+        console: 'PS4'
+    },
+    {
+        game: `Kirby's Dream Land`,
+        console: 'GB'
+    },
+    {
+        game: 'Madden NFL 2001',
+        console: 'PS1'
+    },
+    {
+        game: `Madden NFL '07`,
+        console: 'PS2'
+    },
+    {
+        game: 'Mario Golf',
+        console: 'N64'
+    },
+    {
+        game: 'Mario Kart 64',
+        console: 'N64'
+    },
+    {
+        game: 'Mario Party',
+        console: 'N64'
+    },
+    {
+        game: 'Mega Man 3',
+        console: 'NES'
+    },
+    {
+        game: `MLB '06 The Show`,
+        console: 'PS2'
+    },
+    {
+        game: 'Mortal Kombat Trilogy',
+        console: 'N64'
+    },
+    {
+        game: 'Mortal Kombat vs DC Universe',
+        console: 'PS3'
+    },
+    {
+        game: 'NBA Street Vol. 2',
+        console: 'PS2'
+    },
+    {
+        game: 'NCAA Football 2003',
+        console: 'PS2'
+    },
+    {
+        game: 'Need for Speed Underground 2',
+        console: 'PS2'
+    },
+    {
+        game: `NHL '12`,
+        console: 'PS3'
+    },
+    {
+        game: 'Nightmare Creatures',
+        console: 'N64'
+    },
+    {
+        game: 'Perfect Dark',
+        console: 'N64'
+    },
+    {
+        game: `Peter Jackson's King Kong`,
+        console: 'PS2'
+    },
+    {
+        game: 'Pilotwings 64',
+        console: 'N64'
+    },
+    {
+        game: 'Pokemon: Blue',
+        console: 'GB'
+    },
+    {
+        game: 'Pokemon: Red',
+        console: 'GB'
+    },
+    {
+        game: 'Pokemon Snap',
+        console: 'N64'
+    },
+    {
+        game: 'Pokemon Stadium',
+        console: 'N64'
+    },
+    {
+        game: 'Pokemon: Yellow',
+        console: 'GB'
+    },
+    {
+        game: 'Pokemon Pinball',
+        console: 'GB'
+    },
+    {
+        game: 'Pokemon Trading Card Game',
+        console: 'GB'
+    },
+    {
+        game: 'Predator',
+        console: 'NES'
+    },
+    {
+        game: 'Predator: Concrete Jungle',
+        console: 'PS2'
+    },
+    {
+        game: 'Rampage: Total Destruction',
+        console: 'PS2'
+    },
+    {
+        game: 'Rampage: World Tour',
+        console: 'N64'
+    },
+    {
+        game: 'Resident Evil 6',
+        console: 'PS3'
+    },
+    {
+        game: 'Road Rash 64',
+        console: 'N64'
+    },
+    {
+        game: 'San Francisco Rush: Extreme Racing',
+        console: 'N64'
+    },
+    {
+        game: `Shaun Palmer's Pro Snowboarder`,
+        console: 'PS2'
+    },
+    {
+        game: 'Silent Service',
+        console: 'NES'
+    },
+    {
+        game: 'SRS: Street Racing Syndicate',
+        console: 'PS2'
+    },
+    {
+        game: 'Star Fox 64',
+        console: 'N64'
+    },
+    {
+        game: 'Star Wars',
+        console: 'NES'
+    },
+    {
+        game: 'Star Wars: Episode 1 - The Phantom Menace',
+        console: 'PS1'
+    },
+    {
+        game: 'Star Wars: Shadows of the Empire',
+        console: 'N64'
+    },
+    {
+        game: 'Star Wars Battlefront II',
+        console: 'PS2'
+    },
+    {
+        game: 'StarCraft 64',
+        console: 'N64'
+    },
+    {
+        game: 'Super Mario 64',
+        console: 'N64'
+    },
+    {
+        game: 'Super Mario Bros/Duck Hunt',
+        console: 'NES'
+    },
+    {
+        game: 'Super Mario Bros. 2',
+        console: 'NES'
+    },
+    {
+        game: 'Super Mario Bros. 3',
+        console: 'NES'
+    },
+    {
+        game: 'Super Mario Land',
+        console: 'GB'
+    },
+    {
+        game: 'Super Mario Land 2: 6 Golden Coins',
+        console: 'GB'
+    },
+    {
+        game: 'Super Smash Bros.',
+        console: 'N64'
+    },
+    {
+        game: 'Teenage Mutant Ninja Turtles',
+        console: 'NES'
+    },
+    {
+        game: 'Teenage Mutant Ninja Turtles',
+        console: 'PS2'
+    },
+    {
+        game: 'Teenage Mutant Ninja Turtles III: The Manhattan Project',
+        console: 'NES'
+    },
+    {
+        game: 'Teenage Mutant Ninja Turtles: Mutants in Manhattan',
+        console: 'PS3'
+    },
+    {
+        game: 'Tekken 2',
+        console: 'PS1'
+    },
+    {
+        game: 'Tekken 3',
+        console: 'PS1'
+    },
+    {
+        game: 'Tetris',
+        console: 'GB'
+    },
+    {
+        game: 'The Last of Us',
+        console: 'PS4'
+    },
+    {
+        game: 'The Lost World: Jurassic Park',
+        console: 'PS1'
+    },
+    {
+        game: 'The X-Files: Resist or Serve',
+        console: 'PS2'
+    },
+    {
+        game: `Tony Hawk's Pro Skater`,
+        console: 'PS1'
+    },
+    {
+        game: `Tony Hawk's Pro Skater 2`,
+        console: 'PS1'
+    },
+    {
+        game: `Tony Hawk's Pro Skater 3`,
+        console: 'PS3'
+    },
+    {
+        game: 'Turok: Dinosaur Hunter',
+        console: 'N64'
+    },
+    {
+        game: 'Twisted Metal',
+        console: 'PS3'
+    },
+    {
+        game: 'Twisted Metal III',
+        console: 'PS1'
+    },
+    {
+        game: 'War of the Monsters',
+        console: 'PS2'
+    },
+    {
+        game: 'Warpath: Jurassic Park',
+        console: 'PS1'
+    },
+    {
+        game: 'Wave Race 64',
+        console: 'N64'
+    },
+    {
+        game: `Wayne Gretzky's 3D Hockey`,
+        console: 'N64'
+    },
+    {
+        game: 'Yoshi',
+        console: 'GB'
+    }
+];
+
 const clientId = '6M6K1PSC4C';
 const searchURL = 'https://www.boardgameatlas.com/api/search';
 const trackerURL = 'https://docs.google.com/spreadsheets/d/10bqq3FyHzjih2ou_9BnSm1ke16qN-qKn4oegymVOhGc/';
@@ -833,6 +1312,39 @@ function showGames() {
     })
 }
 
+// show list of video gam consoles
+function showVGconsoles() {
+    $('.buttonnav').on('click', '.video-button', function (event) {
+        $('.buttonnav').empty();
+
+        $('.buttonnav').append(
+            `<button class='button' id='GB' onclick='showVideos("GB")'>Game Boy</button>
+            <button class='button' id='NES' onclick='showVideos("NES")'>Nintendo (NES)</button>
+            <button class='button' id='N64' onclick='showVideos("N64")'>Nintendo 64</button>
+            <button class='button' id='PS' onclick='showVideos("PS1")'>PlayStation</button>
+            <button class='button' id='PS2' onclick='showVideos("PS2")'>PlayStation 2</button>
+            <button class='button' id='PS3' onclick='showVideos("PS3")'>PlayStation 3</button>
+            <button class='button' id='PS4' onclick='showVideos("PS4")'>PlayStation 4</button>`
+        );
+    })
+}
+
+// display full list of video games
+function showVideos(con) {
+    $('.buttonnav').hide();
+    $('.videos').show();
+
+    let vgName = videoGames.map(name => name.game);
+
+    for(let i = 0; i < videoGames.length; i++) {
+        if (videoGames[i].console === con) {
+            $('.videos').append(
+                `<div class='game-block'>${vgName[i]}</div>`
+            );
+        }
+    }
+}
+
 // generate random board game recommendation
 function randomGame() {
     $('.game-block').hide();
@@ -849,10 +1361,9 @@ function randomGame() {
 
 }
 
-function backNav() {
-    $('.buttonnav').hide();
-    $('.game-overview').hide();
-    $('.games').empty();
+function backNavBG() {
+    $('.buttonnav, .game-overview').hide();
+    $('.games, .videos').empty();
     $('.games').show();
 
     $('.games').append(
@@ -869,10 +1380,27 @@ function backNav() {
     }
 }
 
+function backNavVG() {
+    $('.games, .game-overview').hide();
+    $('.games, .videos, .buttonnav').empty();
+    $('.buttonnav').show();
+
+    $('.buttonnav').append(
+        `<button class='button' id='GB' onclick='showVideos("GB")'>Game Boy</button>
+        <button class='button' id='NES' onclick='showVideos("NES")'>Nintendo (NES)</button>
+        <button class='button' id='N64' onclick='showVideos("N64")'>Nintendo 64</button>
+        <button class='button' id='PS' onclick='showVideos("PS1")'>PlayStation</button>
+        <button class='button' id='PS2' onclick='showVideos("PS2")'>PlayStation 2</button>
+        <button class='button' id='PS3' onclick='showVideos("PS3")'>PlayStation 3</button>
+        <button class='button' id='PS4' onclick='showVideos("PS4")'>PlayStation 4</button>`
+    );
+}
+
 
 function jsInit() {
     showMovies();
     showGames();
+    showVGconsoles();
 }
 
 $(jsInit);
