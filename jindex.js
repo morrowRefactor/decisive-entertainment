@@ -1719,7 +1719,7 @@ function formatQueryParams(params) {
 }
 
 // call api with query value and params
-function getGames(gameQuery, gameName) {
+function getGames(gameQuery, gameName, random) {
     selectedGame = gameName;
 
     const params = {
@@ -1738,14 +1738,19 @@ function getGames(gameQuery, gameName) {
         }
         throw new Error(response.statusText);
       })
-      .then(responseJson => displayResults(responseJson))
+      .then(responseJson => {
+        if (random === 'rand') {
+            displayResults(responseJson, 'rand')
+        }
+        else {displayResults(responseJson)}
+        })
       .catch(err => {
         $('#js-error-message').text(`Something went wrong: ${err.message}`);
       });
 }
 
 // display details for selected game
-function displayResults(results) {
+function displayResults(results, random) {
     console.log(results);
     $('.games').hide();
     $('.game-overview').empty();
@@ -1769,6 +1774,12 @@ function displayResults(results) {
                 `<span><br /><a class='link' href='${trackerURL}' target='_blank'>View game tracker</a></span>`
             );
         }
+    }
+
+    if (random === 'rand') {
+        $('.game-feature').append(
+            `<button onclick='randomGame()'>Generate New Random</button>`
+        )
     }
 
     $('.game-feature').append(
@@ -1945,7 +1956,7 @@ function randomGame() {
 
     for (let i = 0; i < gameIds.length; i++) {
         if (gameIds[i].game === randomGen) {
-            getGames(gameIds[i].id, gameIds[i].game);
+            getGames(gameIds[i].id, gameIds[i].game, 'rand');
         }
     }
 
