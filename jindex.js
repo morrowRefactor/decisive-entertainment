@@ -1667,6 +1667,50 @@ let selectedGame = 'none';
 let selectedExp = 'none';
 let expCount = 0;
 
+// toggle top menu //
+function showMenu () {
+    $('.hamburger').click(function () {
+        $('.menu').toggle('slow', function () {
+            if($('.menu').is(':visible')){
+                $('.menu').show();
+                if($(window).width() <= 400) {
+                    $('.menu').css({
+                        'font-size': '14px'
+                    });
+                }
+            } 
+            else {
+                $('.menu').hide();
+            }
+        });
+    });
+}
+
+// show top nav to account for screen size adjustment to desktop
+function adjustNav() {
+    $(window).resize(function() {
+        let windowWidth = $(window).width();
+        if(windowWidth >= 900) {
+            $('.menu').show();
+        }
+    });
+}
+
+// adjust menu font for screen size adjustments
+function adjustMenu() {
+    $(window).resize(function() {
+        if($(window).width() <= 400) {
+            $('.menu').css({
+                'font-size': '14px'
+            });
+        } else {
+            $('.menu').css({
+                'font-size': '20px'
+        });
+        }
+    })
+}
+
 // generate clean url for fetch request
 function formatQueryParams(params) {
     const queryItems = Object.keys(params)
@@ -1959,6 +2003,9 @@ function jsInit() {
     showGames();
     showVGconsoles();
     showBookTypes();
+    showMenu();
+    adjustNav();
+    adjustMenu();
 }
 
 $(jsInit);
