@@ -1186,6 +1186,12 @@ const books = [
         owner: 'Kurt'
     },
     {
+        title: 'Alien: The Archive',
+        author: 'Titan Books',
+        type: 'Non-Fiction',
+        owner: 'Kurt'
+    },
+    {
         title: 'Aliens: Bug Hunt',
         author: 'Jonathan Maberry',
         type: 'Fiction',
@@ -1234,6 +1240,12 @@ const books = [
         owner: 'Kurt'
     },
     {
+        title: 'Dinosaurs and Other Prehistoric Animals',
+        author: 'Carl Mehling',
+        type: 'Non-Fiction',
+        owner: 'Kurt'
+    },
+    {
         title: 'East of Eden',
         author: 'John Steinbeck',
         type: 'Non-Fiction',
@@ -1242,6 +1254,12 @@ const books = [
     {
         title: 'Elon Musk',
         author: 'Ashlee Vance',
+        type: 'Non-Fiction',
+        owner: 'Kurt'
+    },
+    {
+        title: 'Encyclopedia of the Dog',
+        author: 'Richard Marples',
         type: 'Non-Fiction',
         owner: 'Kurt'
     },
@@ -1758,6 +1776,7 @@ function displayResults(results, random) {
 
     let getImage = results.games.map(imageVal => imageVal.image_url);
     let urlLink = results.games.map(gameUrl => gameUrl.url);
+    let exp = 'no';
 
     $('.game-overview').append(
         `<div class='game-feature block'>
@@ -1782,10 +1801,17 @@ function displayResults(results, random) {
         )
     }
 
-    $('.game-feature').append(
-        `<button class='exp-link' onclick='findExpansions("${selectedGame}")'>Expansions</button>
-        <section class='expansions block'></section>`
-    )
+    for (let i = 0; i < expansions.length; i++) {
+        if (expansions[i].base === selectedGame) {
+            exp = 'yes';
+        }
+    }
+
+    if (exp === 'yes') {
+        $('.game-feature').append(
+            `<button class='exp-link' onclick='findExpansions("${selectedGame}")'>Expansions</button>
+            <section class='expansions block'></section>`
+        )}
 }
 
 // look for and display any expansions associated with base game
@@ -2005,6 +2031,19 @@ function backNavBoo() {
     $('.buttonnav').append(
         `<button class='button' id='Fiction' onclick='showBooks("Fiction")'>Fiction</button>
         <button class='button' id='Non-Fiction' onclick='showBooks("Non-Fiction")'>Non-Fiction</button>`
+    );
+}
+
+function homeNav() {
+    $('.games, .game-overview').hide();
+    $('.games, .videos, .buttonnav, .books').empty();
+    $('.buttonnav').show();
+
+    $('.buttonnav').append(
+        `<button class="button games-button">Board Games</button>
+        <button class="button books-button">Books</button>
+        <button class="button movie-button">Movies</button>
+        <button class="button video-button">Video Games</button>`
     );
 }
 

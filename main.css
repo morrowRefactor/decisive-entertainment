@@ -3,11 +3,16 @@
     font-family: sans-serif;
 }
 
+body {
+  background-color: rgb(232, 232, 235);
+}
+
 .topnav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(53, 91, 172);
+    border: none;
     color: white;
     font-weight: bold;
     padding: 5px 20px 5px 20px;
@@ -15,6 +20,7 @@
     width: 100%;
     direction: rtl;
     margin-bottom: 25px;
+    box-shadow: 0px 6px rgb(0,0,0,0.2);
   }
   
   .menu {
@@ -44,6 +50,10 @@
   .menulink:hover {
     cursor: pointer;
     text-decoration: underline;
+  }
+
+  .main-title {
+    font-size: 18px;
   }
   
   .main-title,
@@ -84,7 +94,8 @@ img {
     font-size: .90em;
 }
 
-.link:hover {
+.link:hover,
+.home-link {
     cursor: pointer;
 }
 
@@ -118,9 +129,10 @@ img {
 
 .game-block,
 .game-feature {
-    width: 80%;
+    width: 85%;
     border: 1px solid gray;
     border-radius: 5px;
+    background-color: white;
     padding: 10px;
     margin: 10px auto 10px auto;
 }
@@ -150,6 +162,7 @@ img {
     display: inline-block;
     border: 1px solid gray;
     border-radius: 3px;
+    background-color: white;
     width: 100%;
     padding: 5px 10px 5px 10px;
     margin: 10px auto 10px auto;
