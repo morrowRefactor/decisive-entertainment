@@ -1676,7 +1676,72 @@ const books = [
         type: 'Non-Fiction',
         owner: 'Kurt'
     }
-]
+];
+
+const smashUp = [
+    'Aliens',
+    'Anansi Tales',
+    'Ancient Egyptians',
+    'Ancient Incans',
+    'Astroknights',
+    'Bear Cavalry',
+    'Changerbots',
+    'Cowboys',
+    'Cyborg Apes',
+    'Dinosaurs',
+    'Disco Dancers',
+    'Dragons',
+    'Elder Things',
+    'Explorers',
+    'Fairies',
+    'Giant Ants',
+    'Ghosts',
+    'Grannies',
+    `Grimms' Fairy Tales`,
+    'Ignobles',
+    'Innsmouth',
+    'Itty Critters',
+    'Kaiju',
+    'Killer Plants',
+    'Kitty Cats',
+    'Kung Fu Fighters',
+    'Luchadors',
+    'Mad Scientists',
+    'Magical Girls',
+    'Mega Troopers',
+    'Minions of Cthulhu',
+    'Miskatonic University',
+    'Mounties',
+    'Musketeers',
+    'Mythic Greeks',
+    'Mythic Horses',
+    'Ninjas',
+    'Pirates',
+    'Polynesian Voyagers',
+    'Princesses',
+    'Robots',
+    'Rock Stars',
+    'Russian Fairy Tales',
+    'Samurai',
+    'Shapeshifters',
+    'Sharks',
+    'Star Roamers',
+    'Steampunks',
+    'Sumo Wrestlers',
+    'Super Spies',
+    'Superheroes',
+    'Teddy Bears',
+    'Time Travelers',
+    'Tornados',
+    'Tricksters',
+    'Truckers',
+    'Vampires',
+    'Vigilantes',
+    'Vikings',
+    'Werewolves',
+    'Wizards',
+    'Zombies'
+];
 
 const clientId = '6M6K1PSC4C';
 const searchURL = 'https://www.boardgameatlas.com/api/search';
@@ -1786,9 +1851,18 @@ function displayResults(results, random) {
         </div>`
     );
 
+    if (selectedGame === 'Smash Up') {
+        $('.tracker-append').append(
+            `<div>
+                <br/>
+                <u><a class='link' onclick='smashUpFactions()'>Pick Random Factions</a></u>
+            </div>
+            <div class='smash-append hidden'></div>`
+        );
+    }
+
     for (let i = 0; i < gameIds.length; i++) {
         if(gameIds[i].game === selectedGame && gameIds[i].tracker === 'yes') {
-            console.log('good');
             $('.tracker-append').append(
                 `<span><br /><a class='link' href='${trackerURL}' target='_blank'>View game tracker</a></span>`
             );
@@ -1812,6 +1886,18 @@ function displayResults(results, random) {
             `<button class='exp-link' onclick='findExpansions("${selectedGame}")'>Expansions</button>
             <section class='expansions block'></section>`
         )}
+}
+
+function smashUpFactions() {
+    $('.smash-append').empty();
+    $('.smash-append').show();
+    const shuffled = smashUp.sort(() => 0.5 - Math.random());
+    let selected = shuffled.slice(0, 2);
+    $('.smash-append').append(
+        `<p>
+            ${selected}
+        </p>`
+    );
 }
 
 // look for and display any expansions associated with base game
