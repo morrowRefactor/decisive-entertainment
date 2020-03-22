@@ -560,7 +560,7 @@ const expansions = [
         id: 'x9WLvqVc6H'
     },
     {
-        base: 'Nemsis',
+        base: 'Nemesis',
         exp: 'Aftermath & Void Seeders',
         id: 'TOGUdVZhSg'
     },
