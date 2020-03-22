@@ -212,6 +212,10 @@ const gameIds = [
         tracker: 'yes'
     },
     {
+        game: 'Nemesis',
+        id: 'JdpRadPLi2'
+    },
+    {
         game: `Odin's Ravens`,
         id: 'r0qi6cfnBn'
     },
@@ -334,6 +338,10 @@ const gameIds = [
     {
         game: 'Telestrations: After Dark',
         id: '7xvW4DYkgw'
+    },
+    {
+        game: 'The Crew: The Quest for Planet 9',
+        id: 'zP1jQ8Ueb4'
     },
     {
         game: 'The Game',
@@ -550,6 +558,11 @@ const expansions = [
         base: 'Mysterium',
         exp: 'Mysterium: Secrets and Lies',
         id: 'x9WLvqVc6H'
+    },
+    {
+        base: 'Nemsis',
+        exp: 'Aftermath & Void Seeders',
+        id: 'TOGUdVZhSg'
     },
     {
         base: 'Orleans',
@@ -1888,6 +1901,7 @@ function displayResults(results, random) {
         )}
 }
 
+// generate random factions for SmashUp
 function smashUpFactions() {
     $('.smash-append').empty();
     $('.smash-append').show();
