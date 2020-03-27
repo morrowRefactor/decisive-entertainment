@@ -111,10 +111,6 @@ const gameIds = [
         id: 'AayCJcD6rT'
     },
     {
-        game: 'Exploding Kittens',
-        id: '74f9mzbw9Y'
-    },
-    {
         game: 'Flash Point',
         id: 'CqocZK7pu6'
     },
@@ -1160,534 +1156,622 @@ const books = [
         title: '1984',
         author: 'George Orwell',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'yxv1LK5gyV4C'
     },
     {
         title: '20,000 Leagues Under the Sea',
         author: 'Jules Verne',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'Iw2huAAACAAJ'
     },
     {
         title: 'A Confederacy of Dunces',
         author: 'John Kennedy Toole',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'Hg0jKHsj6DMC'
     },
     {
         title: `A People's History of the United States`,
         author: 'Howard Zinn',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'KBueCgAAQBAJ'
     },
     {
         title: 'A Short History of Nearly Everything',
         author: 'Bill Bryson',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '_CWlKRYLbIwC'
     },
     {
         title: `Aesop's Fables`,
         author: 'Ann McGovern',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'rX75_iXXMoIC'
     },
     {
         title: `Aesop's Illustrated Fables`,
         author: 'Barnes & Noble',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'TYwalwEACAAJ'
     },
     {
         title: 'Alien: The Archive',
         author: 'Titan Books',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'pMSpoAEACAAJ'
     },
     {
         title: 'Aliens: Bug Hunt',
         author: 'Jonathan Maberry',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'DKe5DAAAQBAJ'
     },
     {
         title: 'Aliens: The Essential Comics V.1',
         author: 'Randy Stradley',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Assholes',
         author: 'Aaron James',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'GCqXH6WQdVMC'
     },
     {
         title: 'Catch-22',
         author: 'Joseph Heller',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'Xfze51E7TEoC'
     },
     {
         title: 'Chilling Ghost Short Stories',
         author: 'Dale Townshend',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Chilling Horror Short Stories',
         author: 'Dale Townshend',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Collapse',
         author: 'Jared Diamond',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'jNQd9RpuJ-4C'
     },
     {
         title: 'Dharma Punx',
         author: 'Noah Levine',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '9pLj5siXnxYC'
     },
     {
         title: 'Dinosaurs and Other Prehistoric Animals',
         author: 'Carl Mehling',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'East of Eden',
         author: 'John Steinbeck',
-        type: 'Non-Fiction',
-        owner: 'Kurt'
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'OPy6E5ZhXs0C'
     },
     {
         title: 'Elon Musk',
         author: 'Ashlee Vance',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'Yd99BAAAQBAJ'
     },
     {
         title: 'Encyclopedia of the Dog',
         author: 'Richard Marples',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'k8Ft-pnQ9xQC'
     },
     {
         title: 'Even More Scary Stories for Sleep-Overs',
         author: 'Q.L. Pearce',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'JejS0xpl05oC'
     },
     {
         title: 'Everybody Lies',
         author: 'Seth Stephens-Davidowitz',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'hy5bCwAAQBAJ'
     },
     {
         title: 'Familiar Dinosaurs: The Autobahn Sociaty Pocket Guides',
         author: 'Alfred A. Knopf',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Fate of the States',
         author: 'Meredith Whitney',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id:'0dr-fUcL3oMC'
     },
     {
         title: 'Freakonomics',
         author: 'Steven Levitt',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'wNPnl5zYA-cC'
     },
     {
         title: 'For Whom the Bell Tolls',
         author: 'Ernest Hemingway',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'jS2BDwAAQBAJ'
     },
     {
         title: 'GameTek: The Math and Science of Gaming',
         author: 'Geoff Engelstein',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'tNHqswEACAAJ'
     },
     {
         title: `Garfield's Insults, Put-Downs & Slams`,
         author: 'Jim Davis',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'KDsQzaAhPB8C'
     },
     {
         title: 'Geek-Art: An Anthology',
         author: 'Thomas Olivri',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'hAzJoAEACAAJ'
     },
     {
         title: 'Goblins in the Castle',
         author: 'Bruce Coville',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'P-tFL-NeLeAC'
     },
     {
         title: 'Guns, Germs, and Steel',
         author: 'Jared Diamond',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'PWnWRFEGoeUC'
     },
     {
         title: 'How the States Got Their Shapes',
         author: 'Mark Stein',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'WSloGVQwP68C'
     },
     {
         title: 'I Hope They Serve Beer in Hell',
         author: 'Tucker Max',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'rPoBYx7hRB4C'
     },
     {
         title: 'Infinite Jest',
         author: 'David Foster Wallace',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'Nhe2yvx6hP8C'
     },
     {
         title: 'Jeter Unfiltered',
         author: 'Derek Jeter',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '-U0uBQAAQBAJ'
     },
     {
         title: 'Just So Stories',
         author: 'Rudyard Kipling',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Marketing in the Groundswell',
         author: 'Charlene Li',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'pRRhPgAACAAJ'
     },
     {
         title: 'Meditations',
         author: 'Marcus Aurelius',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Michael Jordan',
         author: 'Chip Lovitt',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '_lheRQAACAAJ'
     },
     {
         title: 'Michael Jordan: The Life',
         author: 'Roland Lazenby',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'leziAAAAQBAJ'
     },
     {
         title: 'Moonwalking With Einstein',
         author: 'Joshua Foer',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '-Ac81W-ZQDEC'
     },
     {
         title: 'More Scary Stories for Sleep-Overs',
         author: 'Q.L. Pearce',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'SaTNFcu2gW8C'
     },
     {
         title: 'More Scary Stories to Tell in the Dark',
         author: 'Alvin Schwartz',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'snNADwAAQBAJ'
     },
     {
         title: 'More Super Scary Stories for Sleep-Overs',
         author: 'Q.L. Pearce',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'l5r6QfyX-q0C'
     },
     {
         title: 'Mythology',
         author: 'Edith Hamilton',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'DArhDgAAQBAJ'
     },
     {
         title: `New York Giants: Great Teams' Great Years`,
         author: 'Jim Terzian',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '4U1xAAAAMAAJ'
     },
     {
         title: 'Of Mice and Men',
         author: 'John Steinbeck',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'F7WKDQAAQBAJ'
     },
     {
         title: 'Predator: If It Bleeds',
         author: 'Bryan Thomas Schmidt',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Predator: The Essential Comics V.1',
         author: 'Randy Stradley',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Resource Wars',
         author: 'Michael Klare',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'IPW2KfEJNA8C'
     },
     {
         title: 'Scary Stories for Sleep-Overs',
         author: 'R.C. Welch',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'gWz6OwAACAAJ'
     },
     {
         title: 'Scary Stories to Tell in the Dark',
         author: 'Alvin Schwartz',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'jXNADwAAQBAJ'
     },
     {
         title: 'Scary Stories 3: More Tales to Chill Your Bones',
         author: 'Alvin Schwartz',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '13NADwAAQBAJ'
     },
     {
         title: 'Slaughterhouse Five',
         author: 'Kurt Vonnegut',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'FM4y7N1kM9AC'
     },
     {
         title: 'Still More Scary Stories for Sleep-Overs',
         author: 'Q.L. Pearce',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'OW5IADq3Kj4C'
     },
     {
         title: 'Super Scary Stories for Sleep-Overs',
         author: 'Q.L. Pearce',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '-HR1mOYgg6IC'
     },
     {
         title: 'SuperFreakonomics',
         author: 'Steven Levitt',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '2ww1No7b5OYC'
     },
     {
         title: 'The 48 Laws of Power',
         author: 'Robert Greene',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'P_zMW3EHnTEC'
     },
     {
         title: 'The Alphabet of Manliness',
         author: 'Maddox',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'GiEiXlzThfkC'
     },
     {
         title: 'The Bronx is Burning',
         author: 'Johnathan Mahler',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'OM7fwH0JZs4C'
     },
     {
         title: 'The Car',
         author: 'Gary Paulsen',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'SDUzCwAAQBAJ'
     },
     {
         title: 'The Catcher in the Rye',
         author: 'J.D. Salinger',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'FqSiDwAAQBAJ'
     },
     {
         title: 'The Complete Calvin and Hobbes',
         author: 'Bill Watterson',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'wmjG5g4Yx7gC'
     },
     {
         title: 'The Count of Monte Cristo',
         author: 'Alexandre Dumas',
         translation: 'Robin Buss',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'The Drunkards Walk: How Randomness Rules Our Lives',
         author: 'Leonard Mlodinow',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '7NH5yNWMCFEC'
     },
     {
         title: 'The Fortune at the Bottom of the Pyramid',
         author: 'C.K. Prahalad',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'R5ePu1awfloC'
     },
     {
         title: 'The Grapes of Wrath',
         author: 'John Steinbeck',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'bhJgd3hGdxQC'
     },
     {
         title: 'The Holographic Universe',
         author: 'Michael Talbot',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '-YZqPmK8jAUC'
     },
     {
         title: 'The Last Lion',
         author: 'William Manchester',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'The Last of the Mohicans',
         author: 'James Fenimore Cooper',
         translation: 'Elizabeth Gatewood Cooper',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'The Long Emergency',
         author: 'James Howard Kunstler',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'GV_lT_lQPYMC'
     },
     {
         title: 'The New Jim Crow',
         author: 'Michelle Alexander',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'CNOFDwAAQBAJ'
     },
     {
         title: 'The New York Giants: Yesterday, Today, Tomorrow',
         author: 'Dave Klein',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'The Odyssey',
         author: 'Homer',
         translation: 'Robert Fitzgerald',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'nXkePe2TPQYC'
     },
     {
         title: 'The Party is Over',
         author: 'Mike Lofgren',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'N-dvDwAAQBAJ'
     },
     {
         title: 'The Prince',
         author: 'Niccolo Macchiavelli',
         translation: 'W.K. Marriott',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'UW9engEACAAJ'
     },
     {
         title: 'The Swiss Family Robinson',
         author: 'Johann Wyss',
         translation: 'Steve Frazee',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'The Third Chimpanzee',
         author: 'Jared Diamond',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '11EQBwAAQBAJ'
     },
     {
         title: 'The Tipping Point',
         author: 'Malcolm Gladwell',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'yBDBEGBIUmgC'
     },
     {
         title: 'Thinking, Fast and Slow',
         author: 'Daniel Kahneman',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'TA7Q27RWlj0C'
     },
     {
         title: 'Thirteen Notches',
         author: 'Hank Edwards',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'zz333BCcOfcC'
     },
     {
         title: 'Thomas Jefferson: The Art of Power',
         author: 'Jon Meacham',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '7QBwDwAAQBAJ'
     },
     {
         title: `Tobin's Spirit Guide`,
         author: 'Erik Burnham',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '5IyyDAEACAAJ'
     },
     {
         title: 'Treasure Island',
         author: 'Robert Louis Stevenson',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'null'
     },
     {
         title: 'Turnaround',
         author: 'William Bratton',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'Ns7GAZcA9AYC'
     },
     {
         title: 'Until the End of Time',
         author: 'Brian Greene',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'gLXPDwAAQBAJ'
     },
     {
         title: 'Woodsong',
         author: 'Gary Paulsen',
         type: 'Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: '9qsdexSX1qgC'
     },
     {
         title: 'Zero to One',
         author: 'Peter Thiel',
         type: 'Non-Fiction',
-        owner: 'Kurt'
+        owner: 'Kurt',
+        id: 'ZH4oAwAAQBAJ'
     }
 ];
 
@@ -1756,12 +1840,17 @@ const smashUp = [
     'Zombies'
 ];
 
+// board game variables
 const clientId = '6M6K1PSC4C';
 const searchURL = 'https://www.boardgameatlas.com/api/search';
 const trackerURL = 'https://docs.google.com/spreadsheets/d/10bqq3FyHzjih2ou_9BnSm1ke16qN-qKn4oegymVOhGc/';
 let selectedGame = 'none';
 let selectedExp = 'none';
 let expCount = 0;
+
+// book variables
+const googleURL = 'https://www.googleapis.com/books/v1/volumes/';
+const googleId = 'AIzaSyC2oWpXroEy-JTZ3L5tRW_WQ5bmwkulEGI';
 
 // toggle top menu //
 function showMenu () {
@@ -1997,7 +2086,7 @@ function showGames() {
         $('.games').show();
 
         $('.games').append(
-            `<div class="game-block random"><a class="game-link random" onclick='randomGame()'>Generate Random</a></div>`
+            `<div class='game-block random'><a class="link random" onclick='randomGame()'>Generate Random</a></div>`
         );
 
         let gameList = gameIds.map(name => name.game);
@@ -2005,7 +2094,7 @@ function showGames() {
 
         for(let i = 0; i < gameList.length; i++) {
             $('.games').append(
-                `<div class='game-block'><a class='game-link' onclick='getGames("${idList[i]}", "${gameList[i]}")'>${gameList[i]}</a></div>`
+                `<div class='game-block'><a class='link' onclick='getGames("${idList[i]}", "${gameList[i]}")'>${gameList[i]}</a></div>`
             );
         }
     })
@@ -2062,14 +2151,44 @@ function showBooks(type) {
     $('.books').show();
 
     let bookName = books.map(name => name.title);
+    let id = books.map(bookid => bookid.id);
 
     for(let i = 0; i < books.length; i++) {
         if (books[i].type === type) {
             $('.books').append(
-                `<div class='game-block'>${bookName[i]}</div>`
+                `<div class='book-block'><a class='link' onclick='fetchBook("${bookName[i]}", "${id[i]}")'>${bookName[i]}</a></div>`
             );
         }
     }
+}
+
+// fetch requested book details
+function fetchBook(book, id) {
+    const cleanBook = encodeURIComponent(book);
+
+    const url = googleURL + id + '?key=' + googleId;
+    console.log(url);
+
+    fetch(url) 
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error(response.statusText);
+      })
+      .then(responseJson => displayBook(responseJson))
+      .catch(err => {
+        $('#js-error-message').text(`Something went wrong: ${err.message}`);
+      });
+}
+
+// display selected book details
+function displayBook(results) {
+    $('.books').empty();
+    $('.books').append(
+        `good`
+    );
+    console.log(results);
 }
 
 // generate random board game recommendation
