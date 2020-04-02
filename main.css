@@ -90,6 +90,8 @@ img {
     max-width: 150px;
     margin-left: auto;
     margin-right: auto;
+    
+    box-shadow: 4px 4px rgb(0,0,0,0.2);
 }
 
 .link {
@@ -193,6 +195,14 @@ h2, h3 {
 
 .tracker-append {
     text-align: center;
+}
+
+.book-feature {
+  width: 80%;
+  text-align: center;
+  background-color: white;
+  padding: 20px 10px 10px 10px;
+  margin: 10px auto 20px auto;
 }
 
 .hidden,

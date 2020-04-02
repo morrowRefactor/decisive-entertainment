@@ -1220,7 +1220,7 @@ const books = [
         author: 'Randy Stradley',
         type: 'Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'ciRcDwAAQBAJ'
     },
     {
         title: 'Assholes',
@@ -1241,14 +1241,14 @@ const books = [
         author: 'Dale Townshend',
         type: 'Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'I9_9oQEACAAJ'
     },
     {
         title: 'Chilling Horror Short Stories',
         author: 'Dale Townshend',
         type: 'Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'wGs1rgEACAAJ'
     },
     {
         title: 'Collapse',
@@ -1268,8 +1268,7 @@ const books = [
         title: 'Dinosaurs and Other Prehistoric Animals',
         author: 'Carl Mehling',
         type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'null'
+        owner: 'Kurt'
     },
     {
         title: 'East of Eden',
@@ -1310,8 +1309,7 @@ const books = [
         title: 'Familiar Dinosaurs: The Autobahn Sociaty Pocket Guides',
         author: 'Alfred A. Knopf',
         type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'null'
+        owner: 'Kurt'
     },
     {
         title: 'Fate of the States',
@@ -1402,7 +1400,7 @@ const books = [
         author: 'Rudyard Kipling',
         type: 'Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'PdG_vQEACAAJ'
     },
     {
         title: 'Marketing in the Groundswell',
@@ -1416,7 +1414,7 @@ const books = [
         author: 'Marcus Aurelius',
         type: 'Non-Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'WV7Teosv0bIC'
     },
     {
         title: 'Michael Jordan',
@@ -1486,14 +1484,14 @@ const books = [
         author: 'Bryan Thomas Schmidt',
         type: 'Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'jen1DQAAQBAJ'
     },
     {
         title: 'Predator: The Essential Comics V.1',
         author: 'Randy Stradley',
         type: 'Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: '_SFcDwAAQBAJ'
     },
     {
         title: 'Resource Wars',
@@ -1599,7 +1597,7 @@ const books = [
         translation: 'Robin Buss',
         type: 'Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'EhqNGA9gM94C'
     },
     {
         title: 'The Drunkards Walk: How Randomness Rules Our Lives',
@@ -1634,15 +1632,14 @@ const books = [
         author: 'William Manchester',
         type: 'Non-Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'ebCoEp9z76sC'
     },
     {
         title: 'The Last of the Mohicans',
         author: 'James Fenimore Cooper',
         translation: 'Elizabeth Gatewood Cooper',
         type: 'Fiction',
-        owner: 'Kurt',
-        id: 'null'
+        owner: 'Kurt'
     },
     {
         title: 'The Long Emergency',
@@ -1662,8 +1659,7 @@ const books = [
         title: 'The New York Giants: Yesterday, Today, Tomorrow',
         author: 'Dave Klein',
         type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'null'
+        owner: 'Kurt'
     },
     {
         title: 'The Odyssey',
@@ -1693,8 +1689,7 @@ const books = [
         author: 'Johann Wyss',
         translation: 'Steve Frazee',
         type: 'Fiction',
-        owner: 'Kurt',
-        id: 'null'
+        owner: 'Kurt'
     },
     {
         title: 'The Third Chimpanzee',
@@ -1743,7 +1738,7 @@ const books = [
         author: 'Robert Louis Stevenson',
         type: 'Fiction',
         owner: 'Kurt',
-        id: 'null'
+        id: 'POCvDAEACAAJ'
     },
     {
         title: 'Turnaround',
@@ -1851,6 +1846,7 @@ let expCount = 0;
 // book variables
 const googleURL = 'https://www.googleapis.com/books/v1/volumes/';
 const googleId = 'AIzaSyC2oWpXroEy-JTZ3L5tRW_WQ5bmwkulEGI';
+const googleImgURL = 'https://www.googleapis.com/books/v1/volumes?q=';
 
 // toggle top menu //
 function showMenu () {
@@ -2165,9 +2161,7 @@ function showBooks(type) {
 // fetch requested book details
 function fetchBook(book, id) {
     const cleanBook = encodeURIComponent(book);
-
     const url = googleURL + id + '?key=' + googleId;
-    console.log(url);
 
     fetch(url) 
       .then(response => {
@@ -2179,16 +2173,30 @@ function fetchBook(book, id) {
       .then(responseJson => displayBook(responseJson))
       .catch(err => {
         $('#js-error-message').text(`Something went wrong: ${err.message}`);
-      });
+    });
 }
 
 // display selected book details
 function displayBook(results) {
     $('.books').empty();
+    const bookid = results.volumeInfo.id;
+    const bookName = results.volumeInfo.title;
+    const author = results.volumeInfo.authors[0];
+    const published = results.volumeInfo.publishedDate;
+    const pages = results.volumeInfo.pageCount;
+    const description = results.volumeInfo.description;
+    const bookImg = results.volumeInfo.imageLinks.thumbnail;
+
     $('.books').append(
-        `good`
+        `<div class='book-feature'>
+            <img src="${bookImg}" />
+            <h2>${bookName}</h2>
+            <div class='book-details'>${author}<br/>
+            Published: ${published}<br/>
+            Page Count: ${pages}</div>
+            <p>${description}</p>
+        </div>`
     );
-    console.log(results);
 }
 
 // generate random board game recommendation
