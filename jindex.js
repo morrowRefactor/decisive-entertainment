@@ -2147,12 +2147,13 @@ function showBooks(type) {
     $('.books').show();
 
     let bookName = books.map(name => name.title);
+    let cleanBook = encodeURIComponent(books.map(n => n.title));
     let id = books.map(bookid => bookid.id);
 
     for(let i = 0; i < books.length; i++) {
         if (books[i].type === type) {
             $('.books').append(
-                `<div class='book-block'><a class='link' onclick='fetchBook("${bookName[i]}", "${id[i]}")'>${bookName[i]}</a></div>`
+                `<div class='book-block'><a class='link' onclick='fetchBook("${cleanBook[i]}", "${id[i]}")'>${bookName[i]}</a></div>`
             );
         }
     }
@@ -2160,8 +2161,8 @@ function showBooks(type) {
 
 // fetch requested book details
 function fetchBook(book, id) {
-    const cleanBook = encodeURIComponent(book);
     const url = googleURL + id + '?key=' + googleId;
+    console.log(url);
 
     fetch(url) 
       .then(response => {
@@ -2179,24 +2180,39 @@ function fetchBook(book, id) {
 // display selected book details
 function displayBook(results) {
     $('.books').empty();
+    console.log(results);
     const bookid = results.volumeInfo.id;
     const bookName = results.volumeInfo.title;
     const author = results.volumeInfo.authors[0];
     const published = results.volumeInfo.publishedDate;
     const pages = results.volumeInfo.pageCount;
     const description = results.volumeInfo.description;
-    const bookImg = results.volumeInfo.imageLinks.thumbnail;
 
-    $('.books').append(
-        `<div class='book-feature'>
-            <img src="${bookImg}" />
-            <h2>${bookName}</h2>
-            <div class='book-details'>${author}<br/>
-            Published: ${published}<br/>
-            Page Count: ${pages}</div>
-            <p>${description}</p>
-        </div>`
-    );
+    if (!('imageLinks' in results.volumeInfo)) {
+        $('.books').append(
+            `<div class='book-feature'>
+                <h2>${bookName}</h2>
+                <div class='book-details'>${author}<br/>
+                Published: ${published}<br/>
+                Page Count: ${pages}</div>
+                <p>${description}</p>
+            </div>`
+        );
+    }
+    else {
+        const bookImg = results.volumeInfo.imageLinks.thumbnail;
+
+        $('.books').append(
+            `<div class='book-feature'>
+                <img src="${bookImg}" />
+                <h2>${bookName}</h2>
+                <div class='book-details'>${author}<br/>
+                Published: ${published}<br/>
+                Page Count: ${pages}</div>
+                <p>${description}</p>
+            </div>`
+        );
+    }
 }
 
 // generate random board game recommendation
