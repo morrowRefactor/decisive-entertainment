@@ -446,6 +446,11 @@ const expansions = [
         id: 'cyt7Cv1k83'
     },
     {
+        base: 'Dinosaur Island',
+        exp: 'Dinosaur Island: Totally Liquid',
+        id: 'jAbBY1xouO'
+    },
+    {
         base: 'Evolution',
         exp: 'Evolution: Climate',
         id: '8xkkOT11DT'
@@ -675,155 +680,193 @@ const expansions = [
 const videoGames = [
     {
         game: '1080 Snowboarding',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-18946'
     },
     {
         game: 'Alien: Isolation',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-44296'
     },
     {
         game: 'Aliens: Colonial Marines',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-20921'
     },
     {
         game: 'Aliens vs Predator',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-26532'
     },
     {
         game: 'Alien3',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-14356'
     },
     {
         game: 'Ark Park',
-        console: 'PS4'
+        console: 'PS4',
+        id: '3030-67501'
     },
     {
         game: 'Banjo-Kazooie',
-        console: 'N64'
+        console: 'N64',
+        id: '3025-46'
     },
     {
         game: 'Bushido Blade 2',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-6226'
     },
     {
         game: 'Batman: Arkham Asylum',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-23245'
     },
     {
         game: 'Batman: Arkham City',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-29443'
     },
     {
         game: 'Batman: Arkham Origins',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-42245'
     },
     {
         game: 'BattleToads',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-21228'
     },
     {
         game: 'Black',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-8369'
     },
     {
         game: 'Call of Cthulhu',
-        console: 'PS4'
+        console: 'PS4',
+        id: '3030-45148'
     },
     {
         game: 'Call of Duty 3',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-7524'
     },
     {
         game: 'Call of Duty: Black Ops',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-26423'
     },
     {
         game: 'Call of Duty: Black Ops II',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-38039'
     },
     {
         game: 'Call of Duty: Black Ops III',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-48754'
     },
     {
         game: 'Call of Duty: Modern Warfare 2',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-24713'
     },
     {
         game: 'ClayFighter 63 1/3',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-3185'
     },
     {
         game: `Cruis'n USA`,
-        console: 'N64'
+        console: 'N64',
+        id: '3030-9890'
     },
     {
         game: 'Dead Island',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-21534'
     },
     {
         game: 'Diddy Kong Racing',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-15990'
     },
     {
         game: 'Doom 3: BFD Edition',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-14537'
     },
     {
         game: 'Doom 64',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-16788'
     },
     {
         game: 'F-Zero X',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-18808'
     },
     {
         game: 'Ghostbusters',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-20688'
     },
     {
         game: 'God of War',
-        console: 'PS4'
+        console: 'PS4',
+        id: '3030-54229'
     },
     {
         game: 'GoldenEye 007',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-3166'
     },
     {
         game: 'GoldenEye 007 Reloaded',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-35939'
     },
     {
         game: 'Gran Turismo',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-2416'
     },
     {
         game: 'Gran Turismo 2',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-8100'
     },
     {
         game: 'Gran Turismo 3 A-Spec',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-12950'
     },
     {
         game: 'Gran Turismo 5',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-21790'
     },
     {
         game: 'Grand Theft Auto',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-13567'
     },
     {
         game: 'Grand Theft Auto III',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-3724'
     },
     {
         game: 'Grand Theft Auto: San Andreas',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-7120'
     },
     {
         game: 'Grand Theft Auto: Vice City',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-17036'
     },
     {
         game: 'Guitar Hero',
@@ -831,191 +874,238 @@ const videoGames = [
     },
     {
         game: 'Guitar Hero 2',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-14916'
     },
     {
         game: 'Guitar Hero III: Legends of Rock',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-4031'
     },
     {
         game: 'Guitar Hero: World Tour',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-20673'
     },
     {
         game: 'Guitar Hero 5',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-24711'
     },
     {
         game: `Guitar Hero Encore Rocks the 80's`,
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-12241'
     },
     {
         game: 'Gyruss',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-18885'
     },
     {
         game: 'High Heat Major League Baseball 2003',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-16036'
     },
     {
         game: 'Horizon: Zero Dawn',
-        console: 'PS4'
+        console: 'PS4',
+        id: '3030-49973'
     },
     {
         game: 'Jurassic Park',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-5721'
     },
     {
         game: 'Jurassic Park: Operation Genesis',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-11069'
     },
     {
         game: 'Jurassic World: Evolution',
-        console: 'PS4'
+        console: 'PS4',
+        id: '3030-60911'
     },
     {
         game: `Kirby's Dream Land`,
-        console: 'GB'
+        console: 'GB',
+        id: '3030-19788'
     },
     {
         game: 'Madden NFL 2001',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-8822'
     },
     {
         game: `Madden NFL '07`,
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-16585'
     },
     {
         game: 'Mario Golf',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-19716'
     },
     {
         game: 'Mario Kart 64',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-10084'
     },
     {
         game: 'Mario Party',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-6424'
     },
     {
         game: 'Mega Man 3',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-4518'
     },
     {
         game: `MLB '06 The Show`,
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-5682'
     },
     {
         game: 'Mortal Kombat Trilogy',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-8279'
     },
     {
         game: 'Mortal Kombat vs DC Universe',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-20449'
     },
     {
         game: 'NBA Street Vol. 2',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-9866'
     },
     {
         game: 'NCAA Football 2003',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-9305'
     },
     {
         game: 'Need for Speed Underground 2',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-9651'
     },
     {
         game: `NHL '12`,
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-33698'
     },
     {
         game: 'Nightmare Creatures',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-584'
     },
     {
         game: 'Perfect Dark',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-21256'
     },
     {
         game: `Peter Jackson's King Kong`,
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-9458'
     },
     {
         game: 'Pilotwings 64',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-108'
     },
     {
         game: 'Pokemon: Blue',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-3966'
     },
     {
         game: 'Pokemon: Red',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-3966'
     },
     {
         game: 'Pokemon Snap',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-10024'
     },
     {
         game: 'Pokemon Stadium',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-7270'
     },
     {
         game: 'Pokemon: Yellow',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-18673'
     },
     {
         game: 'Pokemon Pinball',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-19154'
     },
     {
         game: 'Pokemon Trading Card Game',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-10489'
     },
     {
         game: 'Predator',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-873'
     },
     {
         game: 'Predator: Concrete Jungle',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-10661'
     },
     {
         game: 'Rampage: Total Destruction',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-5390'
     },
     {
         game: 'Rampage: World Tour',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-12331'
     },
     {
         game: 'Resident Evil 6',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-37273'
     },
     {
         game: 'Road Rash 64',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-18864'
     },
     {
         game: 'San Francisco Rush: Extreme Racing',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-8458'
     },
     {
         game: `Shaun Palmer's Pro Snowboarder`,
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-25097'
     },
     {
         game: 'Silent Service',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-7565'
     },
     {
         game: 'SRS: Street Racing Syndicate',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-9927'
     },
     {
         game: 'Star Fox 64',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-19203'
     },
     {
         game: 'Star Wars',
@@ -1023,47 +1113,58 @@ const videoGames = [
     },
     {
         game: 'Star Wars: Episode 1 - The Phantom Menace',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-14541'
     },
     {
         game: 'Star Wars: Shadows of the Empire',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-12139'
     },
     {
         game: 'Star Wars Battlefront II',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-7094'
     },
     {
         game: 'StarCraft 64',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-13062'
     },
     {
         game: 'Super Mario 64',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-2931'
     },
     {
         game: 'Super Mario Bros/Duck Hunt',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-12460'
     },
     {
         game: 'Super Mario Bros. 2',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-7406'
     },
     {
         game: 'Super Mario Bros. 3',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-10299'
     },
     {
         game: 'Super Mario Land',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-19834'
     },
     {
         game: 'Super Mario Land 2: 6 Golden Coins',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-14425'
     },
     {
         game: 'Super Smash Bros.',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-19125'
     },
     {
         game: 'Teenage Mutant Ninja Turtles',
@@ -1071,83 +1172,103 @@ const videoGames = [
     },
     {
         game: 'Teenage Mutant Ninja Turtles',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-26368'
     },
     {
         game: 'Teenage Mutant Ninja Turtles III: The Manhattan Project',
-        console: 'NES'
+        console: 'NES',
+        id: '3030-1831'
     },
     {
         game: 'Teenage Mutant Ninja Turtles: Mutants in Manhattan',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-51715'
     },
     {
         game: 'Tekken 2',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-10387'
     },
     {
         game: 'Tekken 3',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-11189'
     },
     {
         game: 'Tetris',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-1896'
     },
     {
         game: 'The Last of Us',
-        console: 'PS4'
+        console: 'PS4',
+        id: '3030-36989'
     },
     {
         game: 'The Lost World: Jurassic Park',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-4125'
     },
     {
         game: 'The X-Files: Resist or Serve',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-923'
     },
     {
         game: `Tony Hawk's Pro Skater`,
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-7236'
     },
     {
         game: `Tony Hawk's Pro Skater 2`,
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-990'
     },
     {
         game: `Tony Hawk's Pro Skater 3`,
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-5688'
     },
     {
         game: 'Turok: Dinosaur Hunter',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-14614'
     },
     {
         game: 'Twisted Metal',
-        console: 'PS3'
+        console: 'PS3',
+        id: '3030-31754'
     },
     {
         game: 'Twisted Metal III',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-4635'
     },
     {
         game: 'War of the Monsters',
-        console: 'PS2'
+        console: 'PS2',
+        id: '3030-19651'
     },
     {
         game: 'Warpath: Jurassic Park',
-        console: 'PS1'
+        console: 'PS1',
+        id: '3030-6062'
     },
     {
         game: 'Wave Race 64',
-        console: 'N64'
+        console: 'N64',
+        id: '3030-11969'
     },
     {
         game: `Wayne Gretzky's 3D Hockey`,
-        console: 'N64'
+        console: 'N64',
+        id: '3030-20062'
     },
     {
         game: 'Yoshi',
-        console: 'GB'
+        console: 'GB',
+        id: '3030-19197'
     }
 ];
 
@@ -1848,6 +1969,11 @@ const googleURL = 'https://www.googleapis.com/books/v1/volumes/';
 const googleId = 'AIzaSyC2oWpXroEy-JTZ3L5tRW_WQ5bmwkulEGI';
 const googleImgURL = 'https://www.googleapis.com/books/v1/volumes?q=';
 
+// video game variables
+const vgurl = 'http://www.giantbomb.com/api/search';
+const vgIdUrl = 'http://www.giantbomb.com/api/game/';
+const vgkey = '248c166d6f92c18c7d0795936502e62456760472';
+
 // toggle top menu //
 function showMenu () {
     $('.hamburger').click(function () {
@@ -2119,14 +2245,36 @@ function showVideos(con) {
     $('.videos').show();
 
     let vgName = videoGames.map(name => name.game);
+    let vgID = videoGames.map(guid => guid.id);
 
     for(let i = 0; i < videoGames.length; i++) {
         if (videoGames[i].console === con) {
             $('.videos').append(
-                `<div class='game-block'>${vgName[i]}</div>`
+                `<button class='game-block' onclick='getVideoGames("${vgID[i]}")'>${vgName[i]}</button>`
             );
         }
     }
+}
+
+function getVideoGames(id) {
+    let url = vgIdUrl + id + '/?api_key=' + vgkey + '&format=jsonp&json_callback=';
+    console.log(url);
+    
+    fetch(url) 
+      .then(response => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error(response.statusText);
+      })
+      .then(responseJson => displayVG(responseJson))
+      .catch(err => {
+        $('#js-error-message').text(`Something went wrong: ${err.message}`);
+    });
+}
+
+function displayVG(results) {
+    console.log(results);
 }
 
 // show list of book classes
@@ -2289,7 +2437,6 @@ function homeNav() {
         <button class="button video-button">Video Games</button>`
     );
 }
-
 
 function jsInit() {
     showMovies();
