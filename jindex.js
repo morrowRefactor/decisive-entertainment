@@ -2,6 +2,10 @@
 
 const gameIds = [
     {
+        game: 'Age of War',
+        id: 'BhwBOPlccN'
+    },
+    {
         game: 'Alien',
         id: '1Bh46L1okY'
     },
