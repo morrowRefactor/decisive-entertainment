@@ -23,6 +23,10 @@ const gameIds = [
         tracker: 'yes'
     },
     {
+        game: 'Artifacts, Inc.',
+        id: 'gMHerNI10n'
+    },
+    {
         game: 'Atlantis Rising',
         id: 'J1vBFiqdHG'
     },
@@ -133,6 +137,10 @@ const gameIds = [
     {
         game: 'Hero Realms',
         id: 'UfbQPfF6jK'
+    },
+    {
+        game: 'Horrified',
+        id: 'jYcMsxI5zP'
     },
     {
         game: 'Jurassic Park',
