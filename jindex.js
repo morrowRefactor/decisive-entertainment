@@ -119,6 +119,10 @@ const gameIds = [
         id: 'AayCJcD6rT'
     },
     {
+        game: 'Fantastic Factories',
+        id: 'ObFBe4WGSi'
+    },
+    {
         game: 'Flash Point',
         id: 'CqocZK7pu6'
     },
