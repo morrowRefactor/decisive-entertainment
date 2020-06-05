@@ -207,6 +207,10 @@ const gameIds = [
         id: 'jqer4AvMyC'
     },
     {
+        game: 'Mechs vs Minions',
+        id: 'fZ8RsZxJVM'
+    },
+    {
         game: 'Monopoly',
         id: 'fG5Ax8PA7n'
     },
@@ -386,6 +390,10 @@ const gameIds = [
     {
         game: 'Uno',
         id: 'Ad9NDUFxmt'
+    },
+    {
+        game: 'XenoShyft: Dreadmire',
+        id: 'KAKxMhztTU'
     },
     {
         game: 'Zombicide: Black Plague',
