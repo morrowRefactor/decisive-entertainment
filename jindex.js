@@ -63,10 +63,6 @@ const gameIds = [
         id: 'Lb4YJ13fWH'
     },
     {
-        game: 'Cards Against Humanity',
-        id: 'dFC1lnGINr'
-    },
-    {
         game: 'Chess',
         id: '3hnL2wtWnM'
     },
@@ -352,6 +348,10 @@ const gameIds = [
         id: '8Pw4saLmXn'
     },
     {
+        game: 'Sub Terra',
+        id: '8Jw0gsYDqj'
+    },
+    {
         game: 'Telestrations: After Dark',
         id: '7xvW4DYkgw'
     },
@@ -382,6 +382,10 @@ const gameIds = [
     {
         game: 'TMNT: Pizza Power Game',
         id: 'AFu83jcUS7'
+    },
+    {
+        game: 'Unmatched: Jurassic Park - Ingen vs Raptors',
+        id: 'XGhPub5S4d'
     },
     {
         game: 'Unmatched: Robin Hood vs Bigfoot',
