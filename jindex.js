@@ -352,6 +352,10 @@ const gameIds = [
         id: '8Jw0gsYDqj'
     },
     {
+        game: 'Targi',
+        id: 'Yzurao9vqw'
+    },
+    {
         game: 'Telestrations: After Dark',
         id: '7xvW4DYkgw'
     },
@@ -362,6 +366,10 @@ const gameIds = [
     {
         game: 'The Game',
         id: '9jlOaXVEB2'
+    },
+    {
+        game: 'The Lost Expedition',
+        id: 'uFpj7zM2b0'
     },
     {
         game: 'Ticket to Ride',
@@ -1550,6 +1558,13 @@ const books = [
         type: 'Fiction',
         owner: 'Kurt',
         id: 'PdG_vQEACAAJ'
+    },
+    {
+        title: 'Leadership: In Turbulent Times',
+        author: 'Doris Kearns Goodwin',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: ''
     },
     {
         title: 'Marketing in the Groundswell',
