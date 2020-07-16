@@ -127,6 +127,10 @@ const gameIds = [
         id: 'tH2zndq6oB'
     },
     {
+        game: 'Fury of Dracula',
+        id: 'teJTtkbxiX'
+    },
+    {
         game: 'Fuse',
         id: 'WlJCBUHsjK'
     },
@@ -149,6 +153,10 @@ const gameIds = [
     {
         game: 'Jurassic Park: The Lost World',
         id: 'eM8IUrAcNV'
+    },
+    {
+        game: 'Jurassic World: The Board Game',
+        id: 'Ioo5RAilJN'
     },
     {
         game: 'King of New York',
@@ -193,6 +201,10 @@ const gameIds = [
     {
         game: 'London Dread',
         id: 'eDXnPtt2PK'
+    },
+    {
+        game: 'Lords of Waterdeep',
+        id: 'axOr9uuOwN'
     },
     {
         game: 'Love Letters: Batman',
@@ -278,10 +290,6 @@ const gameIds = [
     {
         game: 'Risk: 2210 A.D.',
         id: 'hZLDaGKHJ8'
-    },
-    {
-        game: 'Risk: Call of Duty Black Ops Zombies',
-        id: 'HaTeZQLEJK'
     },
     {
         game: 'Risk: GodStorm',
