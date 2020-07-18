@@ -63,6 +63,10 @@ const gameIds = [
         id: 'Lb4YJ13fWH'
     },
     {
+        game: 'Champions of Midgard',
+        id: 'zBikUpC51l'
+    },
+    {
         game: 'Chess',
         id: '3hnL2wtWnM'
     },
