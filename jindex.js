@@ -71,6 +71,10 @@ const gameIds = [
         id: '3hnL2wtWnM'
     },
     {
+        game: 'Clank! A Deck-Building Adventure',
+        id: '07FXm6tX4o'
+    },
+    {
         game: 'Clue',
         id: 'YlTmBk5AEH'
     },
@@ -404,6 +408,10 @@ const gameIds = [
         id: 'AFu83jcUS7'
     },
     {
+        game: 'Unmatched: Cobble & Fog',
+        id: 'xFTUYTIgPV'
+    },
+    {
         game: 'Unmatched: Jurassic Park - Ingen vs Raptors',
         id: 'XGhPub5S4d'
     },
@@ -492,6 +500,11 @@ const expansions = [
         base: 'Carcassonne',
         exp: 'Carcassonne: The Princess and the Dragon',
         id: 'cyt7Cv1k83'
+    },
+    {
+        base: 'Champions of Midgard',
+        exp: 'Champions of Midgard: Valhalla',
+        id: 'uIAbNA34UF'
     },
     {
         base: 'Dinosaur Island',
