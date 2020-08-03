@@ -179,6 +179,10 @@ const gameIds = [
         id: '9PfvxBFXQm'
     },
     {
+        game: 'Last Bastion',
+        id: 'hit2aBoUSa'
+    },
+    {
         game: 'Life',
         id: 'OCv0s54FtD'
     },
@@ -2026,7 +2030,7 @@ const smashUp = [
 
 // board game variables
 const clientId = '6M6K1PSC4C';
-const searchURL = 'https://www.boardgameatlas.com/api/search';
+const searchURL = 'https://api.boardgameatlas.com/api/search';
 const trackerURL = 'https://docs.google.com/spreadsheets/d/10bqq3FyHzjih2ou_9BnSm1ke16qN-qKn4oegymVOhGc/';
 let selectedGame = 'none';
 let selectedExp = 'none';
