@@ -308,6 +308,10 @@ const gameIds = [
         id: '8jCluNSJ9P'
     },
     {
+        game: 'Roll Player',
+        id: '7P5sZDmCAC'
+    },
+    {
         game: 'Rummikub',
         id: '3Qx47A4K8M'
     },
@@ -634,6 +638,11 @@ const expansions = [
         base: 'Orleans',
         exp: 'Orleans: Invasion',
         id: 'WJMq3cM0K3'
+    },
+    {
+        base: 'Roll Player',
+        exp: 'Roll Player: Monsters & Minions',
+        id: 'l3TMEluK8v'
     },
     {
         base: 'Smash Up',
