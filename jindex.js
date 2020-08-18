@@ -515,6 +515,11 @@ const expansions = [
     },
     {
         base: 'Champions of Midgard',
+        exp: 'Champions of Midgard: Dark Mountains',
+        id: 'TcWUea0bZt'
+    },
+    {
+        base: 'Champions of Midgard',
         exp: 'Champions of Midgard: Valhalla',
         id: 'uIAbNA34UF'
     },
