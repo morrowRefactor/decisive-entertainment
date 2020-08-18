@@ -296,6 +296,10 @@ const gameIds = [
         id: 'XxdwW5tFt6'
     },
     {
+        game: 'Project: ELITE',
+        id: 'AFPgt1mPDI'
+    },
+    {
         game: 'Qwixx',
         id: 'pH1UCBs9dO'
     },
@@ -638,6 +642,21 @@ const expansions = [
         base: 'Orleans',
         exp: 'Orleans: Invasion',
         id: 'WJMq3cM0K3'
+    },
+    {
+        base: 'Project: ELITE',
+        exp: 'Project: ELITE - Alienship Rescue',
+        id: 'ekH0EtCPTh'
+    },
+    {
+        base: 'Project: ELITE',
+        exp: 'Project: ELITE - Deathmaw Valley',
+        id: 'A7dBe0pRCC'
+    },
+    {
+        base: 'Project: ELITE',
+        exp: 'Project: ELITE - Terran Box',
+        id: 'rm1bfkpz3r'
     },
     {
         base: 'Roll Player',
