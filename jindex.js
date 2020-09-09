@@ -1587,13 +1587,6 @@ const books = [
         id: 'PWnWRFEGoeUC'
     },
     {
-        title: 'How the States Got Their Shapes',
-        author: 'Mark Stein',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'WSloGVQwP68C'
-    },
-    {
         title: 'I Hope They Serve Beer in Hell',
         author: 'Tucker Max',
         type: 'Fiction',
@@ -1629,13 +1622,6 @@ const books = [
         id: ''
     },
     {
-        title: 'Marketing in the Groundswell',
-        author: 'Charlene Li',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'pRRhPgAACAAJ'
-    },
-    {
         title: 'Meditations',
         author: 'Marcus Aurelius',
         type: 'Non-Fiction',
@@ -1655,13 +1641,6 @@ const books = [
         type: 'Non-Fiction',
         owner: 'Kurt',
         id: 'leziAAAAQBAJ'
-    },
-    {
-        title: 'Moonwalking With Einstein',
-        author: 'Joshua Foer',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: '-Ac81W-ZQDEC'
     },
     {
         title: 'More Scary Stories for Sleep-Overs',
@@ -1718,13 +1697,6 @@ const books = [
         type: 'Fiction',
         owner: 'Kurt',
         id: '_SFcDwAAQBAJ'
-    },
-    {
-        title: 'Resource Wars',
-        author: 'Michael Klare',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'IPW2KfEJNA8C'
     },
     {
         title: 'Scary Stories for Sleep-Overs',
@@ -1788,6 +1760,13 @@ const books = [
         type: 'Fiction',
         owner: 'Kurt',
         id: 'GiEiXlzThfkC'
+    },
+    {
+        title: 'The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire',
+        author: 'William Dalrymple',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'iRuoDwAAQBAJ'
     },
     {
         title: 'The Bronx is Burning',
@@ -1965,13 +1944,6 @@ const books = [
         type: 'Fiction',
         owner: 'Kurt',
         id: 'POCvDAEACAAJ'
-    },
-    {
-        title: 'Turnaround',
-        author: 'William Bratton',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'Ns7GAZcA9AYC'
     },
     {
         title: 'Until the End of Time',
