@@ -1386,6 +1386,13 @@ const books = [
         id: 'Iw2huAAACAAJ'
     },
     {
+        title: '48 Laws of Power, The',
+        author: 'Robert Greene',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'P_zMW3EHnTEC'
+    },
+    {
         title: 'A Confederacy of Dunces',
         author: 'John Kennedy Toole',
         type: 'Fiction',
@@ -1442,6 +1449,20 @@ const books = [
         id: 'ciRcDwAAQBAJ'
     },
     {
+        title: 'Alphabet of Manliness, The',
+        author: 'Maddox',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'GiEiXlzThfkC'
+    },
+    {
+        title: 'Anarchy, The: The East India Company, Corporate Violence, and the Pillage of an Empire',
+        author: 'William Dalrymple',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'iRuoDwAAQBAJ'
+    },
+    {
         title: 'Assholes',
         author: 'Aaron James',
         type: 'Non-Fiction',
@@ -1449,11 +1470,32 @@ const books = [
         id: 'GCqXH6WQdVMC'
     },
     {
+        title: 'Bronx is Burning, The',
+        author: 'Johnathan Mahler',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'OM7fwH0JZs4C'
+    },
+    {
+        title: 'Car, The',
+        author: 'Gary Paulsen',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'SDUzCwAAQBAJ'
+    },
+    {
         title: 'Catch-22',
         author: 'Joseph Heller',
         type: 'Fiction',
         owner: 'Kurt',
         id: 'Xfze51E7TEoC'
+    },
+    {
+        title: 'Catcher in the Rye, The',
+        author: 'J.D. Salinger',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'FqSiDwAAQBAJ'
     },
     {
         title: 'Chilling Ghost Short Stories',
@@ -1477,6 +1519,21 @@ const books = [
         id: 'jNQd9RpuJ-4C'
     },
     {
+        title: 'Complete Calvin and Hobbes, The',
+        author: 'Bill Watterson',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'wmjG5g4Yx7gC'
+    },
+    {
+        title: 'Count of Monte Cristo, The',
+        author: 'Alexandre Dumas',
+        translation: 'Robin Buss',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'EhqNGA9gM94C'
+    },
+    {
         title: 'Dharma Punx',
         author: 'Noah Levine',
         type: 'Non-Fiction',
@@ -1488,6 +1545,13 @@ const books = [
         author: 'Carl Mehling',
         type: 'Non-Fiction',
         owner: 'Kurt'
+    },
+    {
+        title: 'Drunkards Walk, The: How Randomness Rules Our Lives',
+        author: 'Leonard Mlodinow',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: '7NH5yNWMCFEC'
     },
     {
         title: 'East of Eden',
@@ -1552,6 +1616,13 @@ const books = [
         id: 'jS2BDwAAQBAJ'
     },
     {
+        title: 'Fortune at the Bottom of the Pyramid, The',
+        author: 'C.K. Prahalad',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'R5ePu1awfloC'
+    },
+    {
         title: 'GameTek: The Math and Science of Gaming',
         author: 'Geoff Engelstein',
         type: 'Non-Fiction',
@@ -1580,11 +1651,32 @@ const books = [
         id: 'P-tFL-NeLeAC'
     },
     {
+        title: 'Goblins on the Prowl',
+        author: 'Bruce Coville',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'WJSvBAAAQBAJ'
+    },
+    {
+        title: 'Grapes of Wrath,The',
+        author: 'John Steinbeck',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'bhJgd3hGdxQC'
+    },
+    {
         title: 'Guns, Germs, and Steel',
         author: 'Jared Diamond',
         type: 'Non-Fiction',
         owner: 'Kurt',
         id: 'PWnWRFEGoeUC'
+    },
+    {
+        title: 'Holographic Universe, The',
+        author: 'Michael Talbot',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: '-YZqPmK8jAUC'
     },
     {
         title: 'I Hope They Serve Beer in Hell',
@@ -1615,11 +1707,32 @@ const books = [
         id: 'PdG_vQEACAAJ'
     },
     {
+        title: 'Last Lion, The',
+        author: 'William Manchester',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'ebCoEp9z76sC'
+    },
+    {
+        title: 'Last of the Mohicans, The',
+        author: 'James Fenimore Cooper',
+        translation: 'Elizabeth Gatewood Cooper',
+        type: 'Fiction',
+        owner: 'Kurt'
+    },
+    {
         title: 'Leadership: In Turbulent Times',
         author: 'Doris Kearns Goodwin',
         type: 'Non-Fiction',
         owner: 'Kurt',
         id: ''
+    },
+    {
+        title: 'Long Emergency, The',
+        author: 'James Howard Kunstler',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'GV_lT_lQPYMC'
     },
     {
         title: 'Meditations',
@@ -1671,6 +1784,13 @@ const books = [
         id: 'DArhDgAAQBAJ'
     },
     {
+        title: 'New Jim Crow, The',
+        author: 'Michelle Alexander',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'CNOFDwAAQBAJ'
+    },
+    {
         title: `New York Giants: Great Teams' Great Years`,
         author: 'Jim Terzian',
         type: 'Non-Fiction',
@@ -1678,11 +1798,32 @@ const books = [
         id: '4U1xAAAAMAAJ'
     },
     {
+        title: 'New York Giants, The: Yesterday, Today, Tomorrow',
+        author: 'Dave Klein',
+        type: 'Non-Fiction',
+        owner: 'Kurt'
+    },
+    {
+        title: 'Odyssey, The',
+        author: 'Homer',
+        translation: 'Robert Fitzgerald',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'nXkePe2TPQYC'
+    },
+    {
         title: 'Of Mice and Men',
         author: 'John Steinbeck',
         type: 'Fiction',
         owner: 'Kurt',
         id: 'F7WKDQAAQBAJ'
+    },
+    {
+        title: 'Party is Over, The',
+        author: 'Mike Lofgren',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'N-dvDwAAQBAJ'
     },
     {
         title: 'Predator: If It Bleeds',
@@ -1697,6 +1838,14 @@ const books = [
         type: 'Fiction',
         owner: 'Kurt',
         id: '_SFcDwAAQBAJ'
+    },
+    {
+        title: 'Prince, The',
+        author: 'Niccolo Macchiavelli',
+        translation: 'W.K. Marriott',
+        type: 'Non-Fiction',
+        owner: 'Kurt',
+        id: 'UW9engEACAAJ'
     },
     {
         title: 'Scary Stories for Sleep-Overs',
@@ -1748,163 +1897,21 @@ const books = [
         id: '2ww1No7b5OYC'
     },
     {
-        title: 'The 48 Laws of Power',
-        author: 'Robert Greene',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'P_zMW3EHnTEC'
-    },
-    {
-        title: 'The Alphabet of Manliness',
-        author: 'Maddox',
-        type: 'Fiction',
-        owner: 'Kurt',
-        id: 'GiEiXlzThfkC'
-    },
-    {
-        title: 'The Anarchy: The East India Company, Corporate Violence, and the Pillage of an Empire',
-        author: 'William Dalrymple',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'iRuoDwAAQBAJ'
-    },
-    {
-        title: 'The Bronx is Burning',
-        author: 'Johnathan Mahler',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'OM7fwH0JZs4C'
-    },
-    {
-        title: 'The Car',
-        author: 'Gary Paulsen',
-        type: 'Fiction',
-        owner: 'Kurt',
-        id: 'SDUzCwAAQBAJ'
-    },
-    {
-        title: 'The Catcher in the Rye',
-        author: 'J.D. Salinger',
-        type: 'Fiction',
-        owner: 'Kurt',
-        id: 'FqSiDwAAQBAJ'
-    },
-    {
-        title: 'The Complete Calvin and Hobbes',
-        author: 'Bill Watterson',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'wmjG5g4Yx7gC'
-    },
-    {
-        title: 'The Count of Monte Cristo',
-        author: 'Alexandre Dumas',
-        translation: 'Robin Buss',
-        type: 'Fiction',
-        owner: 'Kurt',
-        id: 'EhqNGA9gM94C'
-    },
-    {
-        title: 'The Drunkards Walk: How Randomness Rules Our Lives',
-        author: 'Leonard Mlodinow',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: '7NH5yNWMCFEC'
-    },
-    {
-        title: 'The Fortune at the Bottom of the Pyramid',
-        author: 'C.K. Prahalad',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'R5ePu1awfloC'
-    },
-    {
-        title: 'The Grapes of Wrath',
-        author: 'John Steinbeck',
-        type: 'Fiction',
-        owner: 'Kurt',
-        id: 'bhJgd3hGdxQC'
-    },
-    {
-        title: 'The Holographic Universe',
-        author: 'Michael Talbot',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: '-YZqPmK8jAUC'
-    },
-    {
-        title: 'The Last Lion',
-        author: 'William Manchester',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'ebCoEp9z76sC'
-    },
-    {
-        title: 'The Last of the Mohicans',
-        author: 'James Fenimore Cooper',
-        translation: 'Elizabeth Gatewood Cooper',
-        type: 'Fiction',
-        owner: 'Kurt'
-    },
-    {
-        title: 'The Long Emergency',
-        author: 'James Howard Kunstler',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'GV_lT_lQPYMC'
-    },
-    {
-        title: 'The New Jim Crow',
-        author: 'Michelle Alexander',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'CNOFDwAAQBAJ'
-    },
-    {
-        title: 'The New York Giants: Yesterday, Today, Tomorrow',
-        author: 'Dave Klein',
-        type: 'Non-Fiction',
-        owner: 'Kurt'
-    },
-    {
-        title: 'The Odyssey',
-        author: 'Homer',
-        translation: 'Robert Fitzgerald',
-        type: 'Fiction',
-        owner: 'Kurt',
-        id: 'nXkePe2TPQYC'
-    },
-    {
-        title: 'The Party is Over',
-        author: 'Mike Lofgren',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'N-dvDwAAQBAJ'
-    },
-    {
-        title: 'The Prince',
-        author: 'Niccolo Macchiavelli',
-        translation: 'W.K. Marriott',
-        type: 'Non-Fiction',
-        owner: 'Kurt',
-        id: 'UW9engEACAAJ'
-    },
-    {
-        title: 'The Swiss Family Robinson',
+        title: 'Swiss Family Robinson, The',
         author: 'Johann Wyss',
         translation: 'Steve Frazee',
         type: 'Fiction',
         owner: 'Kurt'
     },
     {
-        title: 'The Third Chimpanzee',
+        title: 'Third Chimpanzee, The',
         author: 'Jared Diamond',
         type: 'Non-Fiction',
         owner: 'Kurt',
         id: '11EQBwAAQBAJ'
     },
     {
-        title: 'The Tipping Point',
+        title: 'Tipping Point, The',
         author: 'Malcolm Gladwell',
         type: 'Non-Fiction',
         owner: 'Kurt',
