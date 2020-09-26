@@ -147,6 +147,10 @@ const gameIds = [
         id: 'Qasr8JSP2c'
     },
     {
+        game: 'Gloomhaven',
+        id: 'RLlDWHh7hR'
+    },
+    {
         game: 'Hero Realms',
         id: 'UfbQPfF6jK'
     },
