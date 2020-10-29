@@ -143,16 +143,16 @@ const gameIds = [
         id: 'WlJCBUHsjK'
     },
     {
-        game: 'Ghostbusters',
-        id: 'Qasr8JSP2c'
-    },
-    {
         game: 'Gloomhaven',
         id: 'RLlDWHh7hR'
     },
     {
         game: 'Hero Realms',
         id: 'UfbQPfF6jK'
+    },
+    {
+        game: 'Horizon: Zero Dawn',
+        id: 'OrbKL2NgjD'
     },
     {
         game: 'Horrified',
@@ -358,10 +358,6 @@ const gameIds = [
     {
         game: 'Spirit Island',
         id: 'kPDxpJZ8PD'
-    },
-    {
-        game: 'Splendor',
-        id: 'O0G8z5Wgz1'
     },
     {
         game: 'Star Realms',
