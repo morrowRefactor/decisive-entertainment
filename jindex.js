@@ -649,6 +649,11 @@ const expansions = [
         id: 'WJMq3cM0K3'
     },
     {
+        base: 'Photosynthesis',
+        exp: 'Photosynthesis: Under the Moonlight',
+        id: 'ARhjxHBB33'
+    },
+    {
         base: 'Project: ELITE',
         exp: 'Project: ELITE - Alienship Rescue',
         id: 'ekH0EtCPTh'
