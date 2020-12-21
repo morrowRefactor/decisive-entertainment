@@ -10,6 +10,10 @@ const gameIds = [
         id: '1Bh46L1okY'
     },
     {
+        game: 'Aliens: Another Glorious Day in the Corps',
+        id: '3A0PU8a9GD'
+    },
+    {
         game: 'Apex Theropod',
         id: 'bH7jPgSGCD'
     },
@@ -131,10 +135,6 @@ const gameIds = [
         id: 'CqocZK7pu6'
     },
     {
-        game: 'Funglish',
-        id: 'tH2zndq6oB'
-    },
-    {
         game: 'Fury of Dracula',
         id: 'teJTtkbxiX'
     },
@@ -187,10 +187,6 @@ const gameIds = [
         id: 'hit2aBoUSa'
     },
     {
-        game: 'Life',
-        id: 'OCv0s54FtD'
-    },
-    {
         game: 'Legendary',
         id: '5uqIWPjZZM'
     },
@@ -217,6 +213,10 @@ const gameIds = [
     {
         game: 'London Dread',
         id: 'eDXnPtt2PK'
+    },
+    {
+        game: 'Lords of Hellas',
+        id: '4KexyZo2cz'
     },
     {
         game: 'Lords of Waterdeep',
@@ -408,10 +408,6 @@ const gameIds = [
         id: 'WJWiXguWq5'
     },
     {
-        game: 'Trivial Pursuit',
-        id: 'lKRO027F7t'
-    },
-    {
         game: 'Trivial Pursuit: Bet You Know It',
         id: 'DAREuHkVE0'
     },
@@ -458,6 +454,11 @@ const gameIds = [
 ];
 
 const expansions = [
+    {
+        base: 'Aliens: Another Glorious Day in the Corps',
+        exp: 'Aliens: Get Away From Her You B***h!',
+        id: 'D5OKR78gS6'
+    },
     {
         base: 'Arkham Horror: The Card Game',
         exp: 'Arkham Horror: The Forgotten Age',
