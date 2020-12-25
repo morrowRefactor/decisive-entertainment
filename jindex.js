@@ -2,6 +2,10 @@
 
 const gameIds = [
     {
+        game: `Aeon's End: War Eternal`,
+        id: 'SXVWTlUcEb'
+    },
+    {
         game: 'Age of War',
         id: 'BhwBOPlccN'
     },
@@ -16,10 +20,6 @@ const gameIds = [
     {
         game: 'Apex Theropod',
         id: 'bH7jPgSGCD'
-    },
-    {
-        game: 'Apples to Apples',
-        id: 'sOC4PMWhs0'
     },
     {
         game: 'Arkham Horror: The Card Game',
@@ -239,10 +239,6 @@ const gameIds = [
         id: 'fG5Ax8PA7n'
     },
     {
-        game: 'Mouse Trap',
-        id: 'T4DfVzfque'
-    },
-    {
         game: 'Mysterium',
         id: 'nHJNyAWsoo'
     },
@@ -286,6 +282,10 @@ const gameIds = [
     {
         game: 'Pandemic: Rising Tide',
         id: 'f5xv1LaJcZ'
+    },
+    {
+        game: 'Pandemic Legacy: Season 0',
+        id: 'PusLVpnmFb'
     },
     {
         game: 'Phase 10',
@@ -538,6 +538,11 @@ const expansions = [
         base: 'Evolution',
         exp: 'Evolution: Flight',
         id: 'LTn4zrrUPd'
+    },
+    {
+        base: 'Gloomhaven',
+        exp: 'Gloomhaven: Forgotten Circles',
+        id: 'PKcSCpkXyE'
     },
     {
         base: 'King of Tokyo',
