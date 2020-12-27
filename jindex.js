@@ -396,10 +396,6 @@ const gameIds = [
         id: '9jlOaXVEB2'
     },
     {
-        game: 'The Lost Expedition',
-        id: 'uFpj7zM2b0'
-    },
-    {
         game: 'Ticket to Ride',
         id: 'AuBvbISHR6'
     },
