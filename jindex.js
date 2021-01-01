@@ -1168,6 +1168,11 @@ const videoGames = [
         id: '3030-10661'
     },
     {
+        game: 'Predator: Hunting Grounds',
+        console: 'PS4',
+        id: '3030-73332'
+    },
+    {
         game: 'Rampage: Total Destruction',
         console: 'PS2',
         id: '3030-5390'
