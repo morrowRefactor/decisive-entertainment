@@ -2,6 +2,10 @@
 
 const gameIds = [
     {
+        game: `Aeon's End: The New Age`,
+        id: 'NHwyTtPl00'
+    },
+    {
         game: `Aeon's End: War Eternal`,
         id: 'SXVWTlUcEb'
     },
@@ -262,6 +266,10 @@ const gameIds = [
     {
         game: 'Orleans',
         id: 'pSY1hWs5YH'
+    },
+    {
+        game: 'Paleo',
+        id: '1SXUD8Vm7h'
     },
     {
         game: 'Pandemic',
