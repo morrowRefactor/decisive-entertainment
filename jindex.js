@@ -436,6 +436,10 @@ const gameIds = [
         id: 'Ad9NDUFxmt'
     },
     {
+        game: 'Wingspan',
+        id: '5H5JS0KLzK'
+    },
+    {
         game: 'XenoShyft: Dreadmire',
         id: 'KAKxMhztTU'
     },
