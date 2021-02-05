@@ -127,6 +127,10 @@ const gameIds = [
         id: 'IRKe6MEM9F'
     },
     {
+        game: 'Everdell',
+        id: '8xos44jY7Q'
+    },
+    {
         game: 'Evolution',
         id: 'AayCJcD6rT'
     },
@@ -290,10 +294,6 @@ const gameIds = [
     {
         game: 'Pandemic: Rising Tide',
         id: 'f5xv1LaJcZ'
-    },
-    {
-        game: 'Pandemic Legacy: Season 0',
-        id: 'PusLVpnmFb'
     },
     {
         game: 'Phase 10',
@@ -1852,6 +1852,13 @@ const books = [
         type: 'Non-Fiction',
         owner: 'Kurt',
         id: 'N-dvDwAAQBAJ'
+    },
+    {
+        title: 'Post Office',
+        author: 'Charles Bukowski',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'XjQ5zlnQ8ZcC'
     },
     {
         title: 'Predator: If It Bleeds',
