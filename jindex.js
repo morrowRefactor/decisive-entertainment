@@ -647,6 +647,16 @@ const expansions = [
         id: 'TW8GqSyWD9'
     },
     {
+        base: 'Lords of Hellas',
+        exp: 'Lords of Hellas: Dark Ages',
+        id: 'RBpkYHFVl7'
+    },
+    {
+        base: 'Lords of Hellas',
+        exp: 'Lords of Hellas: Kronos Rebellion',
+        id: '2GjKXNXAzB'
+    },
+    {
         base: 'Mysterium',
         exp: 'Mysterium: Hidden Signs',
         id: 'Q8FmKGF8U8'
