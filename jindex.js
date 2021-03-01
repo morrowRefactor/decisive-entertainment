@@ -2,6 +2,10 @@
 
 const gameIds = [
     {
+        game: 'Abomination',
+        id: 'D4VUvACEYi'
+    },
+    {
         game: `Aeon's End: The New Age`,
         id: 'NHwyTtPl00'
     },
@@ -517,6 +521,11 @@ const expansions = [
         id: 'aSiCTudo4j'
     },
     {
+        base: 'Boss Monster',
+        exp: 'Boss Monster: Vault of Villains',
+        id: 'wK6Feoi5aG'
+    },
+    {
         base: 'Carcassonne',
         exp: 'Carcassonne: Bridges, Castles & Bazaaars',
         id: 'cxbewrSZzV'
@@ -540,6 +549,16 @@ const expansions = [
         base: 'Dinosaur Island',
         exp: 'Dinosaur Island: Totally Liquid',
         id: 'jAbBY1xouO'
+    },
+    {
+        base: 'Everdell',
+        exp: 'Pearlbrook',
+        id: 'HaJzwUu0aB'
+    },
+    {
+        base: 'Everdell',
+        exp: 'Spirecrest',
+        id: 'KhIklGFBtO'
     },
     {
         base: 'Evolution',
