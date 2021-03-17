@@ -255,11 +255,6 @@ const gameIds = [
         id: 'nHJNyAWsoo'
     },
     {
-        game: 'Myth',
-        id: '5CUDNVboxX',
-        tracker: 'yes'
-    },
-    {
         game: 'Nemesis',
         id: 'JdpRadPLi2'
     },
