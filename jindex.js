@@ -2,6 +2,10 @@
 
 const gameIds = [
     {
+        game: '7th Continent',
+        id: 'kDvbzBiavI'
+    },
+    {
         game: 'Abomination',
         id: 'D4VUvACEYi'
     },
@@ -544,6 +548,11 @@ const expansions = [
         base: 'Dinosaur Island',
         exp: 'Dinosaur Island: Totally Liquid',
         id: 'jAbBY1xouO'
+    },
+    {
+        base: 'Everdell',
+        exp: 'Bellfaire',
+        id: 'PDxMkXM0MW'
     },
     {
         base: 'Everdell',
