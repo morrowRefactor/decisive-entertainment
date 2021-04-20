@@ -319,6 +319,10 @@ const gameIds = [
         id: 'pH1UCBs9dO'
     },
     {
+        game: 'Rack-O',
+        id: 'ZQX8PXHtpM'
+    },
+    {
         game: 'Risk: 2210 A.D.',
         id: 'hZLDaGKHJ8'
     },
@@ -421,6 +425,10 @@ const gameIds = [
     {
         game: 'TMNT: Pizza Power Game',
         id: 'AFu83jcUS7'
+    },
+    {
+        game: 'Trick Shot',
+        id: 'ZQX8PXHtpM'
     },
     {
         game: 'Under Falling Skies',
@@ -668,6 +676,11 @@ const expansions = [
         base: 'Legendary Encounters: Alien',
         exp: 'Legendary Encounters: Alien Covenant',
         id: 'TW8GqSyWD9'
+    },
+    {
+        base: 'Lords of Hellas',
+        exp: 'Lords of Hellas: Atlas Overload',
+        id: 'mcv8PqNxxt'
     },
     {
         base: 'Lords of Hellas',
@@ -2033,6 +2046,13 @@ const books = [
         type: 'Fiction',
         owner: 'Kurt',
         id: '9qsdexSX1qgC'
+    },
+    {
+        title: 'World War Z',
+        author: 'Max Brooks',
+        type: 'Fiction',
+        owner: 'Kurt',
+        id: 'X4Z-6_UjUK8C'
     },
     {
         title: 'Zero to One',
