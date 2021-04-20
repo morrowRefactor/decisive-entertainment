@@ -320,7 +320,7 @@ const gameIds = [
     },
     {
         game: 'Rack-O',
-        id: 'ZQX8PXHtpM'
+        id: 'eHaJdoPDDo'
     },
     {
         game: 'Risk: 2210 A.D.',
