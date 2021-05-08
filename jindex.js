@@ -956,6 +956,11 @@ const videoGames = [
         id: '3030-21534'
     },
     {
+        game: 'Dead Space 3',
+        console: 'PS3',
+        id: '3030-38270'
+    },
+    {
         game: 'Diddy Kong Racing',
         console: 'N64',
         id: '3030-15990'
