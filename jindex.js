@@ -395,7 +395,7 @@ const gameIds = [
         id: 'y3WGl0j2FA'
     },
     {
-        game: 'Student Bodies',
+        game: 'Student Bodies2',
         id: '8Pw4saLmXn'
     },
     {
