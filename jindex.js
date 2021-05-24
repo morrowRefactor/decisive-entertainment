@@ -135,6 +135,10 @@ const gameIds = [
         id: 'IRKe6MEM9F'
     },
     {
+        game: 'Dwellings of Eldervale',
+        id: 'zSHsVB78rT'
+    },
+    {
         game: 'Everdell',
         id: '8xos44jY7Q'
     },
@@ -315,6 +319,10 @@ const gameIds = [
         id: 'AFPgt1mPDI'
     },
     {
+        'Quacks of Quedlinburg',
+        id: 'M7r9tO1GbX'
+    },
+    {
         game: 'Qwixx',
         id: 'pH1UCBs9dO'
     },
@@ -457,6 +465,10 @@ const gameIds = [
     {
         game: 'XenoShyft: Dreadmire',
         id: 'KAKxMhztTU'
+    },
+    {
+        game: 'Yggdrasil Chronicles',
+        id: 'jeACqoqn8x'
     },
     {
         game: 'Zombicide: Black Plague',
