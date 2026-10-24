@@ -2155,7 +2155,6 @@ let expCount = 0;
 
 // book variables
 const googleURL = 'https://www.googleapis.com/books/v1/volumes/';
-const googleId = 'AIzaSyC2oWpXroEy-JTZ3L5tRW_WQ5bmwkulEGI';
 const googleImgURL = 'https://www.googleapis.com/books/v1/volumes?q=';
 
 // video game variables
@@ -2498,7 +2497,7 @@ function showBooks(type) {
 
 // fetch requested book details
 function fetchBook(book, id) {
-    const url = googleURL + id + '?key=' + googleId;
+    const url = googleURL + id;
     console.log(url);
 
     fetch(url) 
